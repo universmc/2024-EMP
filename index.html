@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma première page web</title>
+  <link rel="stylesheet" href="styles.styl">
+</head>
+<body>
+  <!-- Votre contenu ici -->
+  <script id="groq" type="text/groq">
+    {
+      title,
+      "url": "/$(slug.current)/",
+      "content": body
+    }[0]
+  </script>
+  <script id="config" type="application/json">
+    {
+      "data": {
+        "title": "Ma première page web",
+        "body": "<h1>Bienvenue sur ma première page web !</h1>"
+      }
+    }
+  </script>
+  <script id="async-script" src="src/json/async-script_js.json"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
