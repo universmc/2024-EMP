@@ -1,0 +1,21 @@
+{
+    "affaire": {
+    "numero": "910",
+    "type": "Usage de gaz lacrymogènes lors d'une manifestation",
+    "date": "1er mai 2019",
+    "lieu": "Paris"
+    },
+    "temoignages": {
+    "temoinA": {
+    "nom": "[victimA]",
+    "role": "Victime",
+    "declaration": "accusé les CRS d'avoir utilisé des gaz lacrymogènes sans discernement contre une foule de manifestants pacifiques"
+    },
+    "temoinB": {
+    "nom": "[temoinB]",
+    "role": "Membre du cortège",
+    "declaration": "affirmé qu'il n'y avait aucune menace violente justifiant l'utilisation des gaz lacrymogènes"
+    }
+    }
+    }
+    

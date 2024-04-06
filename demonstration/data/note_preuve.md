@@ -1,0 +1,5 @@
+Je note également la présence de preuves matérielles, telles que des vidéos et des photographies, qui montrent clairement l'utilisation excessive de la force par la police. Elles ont été enregistrées par des manifestants et des passants, et ont été partagées sur les réseaux sociaux. Ces preuves sont cruciales pour étayer les allégations de violence policière et de violation des droits de l'homme.
+
+Il est également important de noter que la manifestation était pacifique et que les manifestants n'ont pas provoqué la police. Les organisateurs de la manifestation ont travaillé en étroite collaboration avec les autorités pour s'assurer que la manifestation se déroule dans le respect de la loi.
+
+Sur la base de ces preuves et témoignages, il est clair que la police a utilisé une force excessive et a violé les droits de l'homme des manifestants. Il est donc impératif que des mesures soient prises pour garantir que les responsables soient tenus de rendre des comptes et que de telles violations ne se reproduisent plus à l'avenir.
