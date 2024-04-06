@@ -18,14 +18,14 @@ Ensuite, nous avons le fichier Affaire\_910-ref-légal\_dalloz.json qui contient
 Enfin, il y a le fichier [object] 
 <pre>
 <code>
-Je <code claass="codex1-cp">[note]</code> également la présence de preuves visuelles, comprenant des vidéos et des photos de la manifestation,<br> qui montrent la foule pacifique, les enfants et les personnes âgées présents dans le cortège,<bre> ainsi que la violence injustifiée de la police envers les manifestants.</br>Ces <code claass="codex1-cp">preuves<code> seront utiles pour étayer les allégations de violence policière et de violation des droits fondamentaux.
+Je <code class="codex1-cp">[note]</code> également la présence de preuves visuelles, comprenant des vidéos et des photos de la manifestation,<br> qui montrent la foule pacifique, les enfants et les personnes âgées présents dans le cortège,<bre> ainsi que la violence injustifiée de la police envers les manifestants.</br>Ces <code class="codex1-cp">preuves<code> seront utiles pour étayer les allégations de violence policière et de violation des droits fondamentaux.
 </code>
 <code>
-Il est important de <code claass="codex1-cp">[noter]</code> que les organisateurs de la manifestation ont tenté de rediriger les manifestants,<br> mais n'ont pas réussi à empêcher la foule de s'engager dans la rue commerçante étroite.<br> Cependant, cela ne justifie en aucun cas l'utilisation excessive de la force par la police.
+Il est important de <code class="codex1-cp">[noter]</code> que les organisateurs de la manifestation ont tenté de rediriger les manifestants,<br> mais n'ont pas réussi à empêcher la foule de s'engager dans la rue commerçante étroite.<br> Cependant, cela ne justifie en aucun cas l'utilisation excessive de la force par la police.
 </code>
 <code>
-Je recommande donc une enquête approfondie sur les actions de la police ce jour-là,<br> y compris l'utilisation de gaz lacrymogènes dans une foule comprenant des enfants et des personnes vulnérables,<br> et<br> le manque d'avertissement préalable avant l'utilisation de la force. Les responsables de ces <code claass="codex1-cp">actes</code> doivent être tenus responsables de leurs actions et des dommages causés aux manifestants.
+Je recommande donc une enquête approfondie sur les actions de la police ce jour-là,<br> y compris l'utilisation de gaz lacrymogènes dans une foule comprenant des enfants et des personnes vulnérables,<br> et<br> le manque d'avertissement préalable avant l'utilisation de la force. Les responsables de ces <code class="codex1-cp">actes</code> doivent être tenus responsables de leurs actions et des dommages causés aux manifestants.
 </code>
 </pre>
 
-En utilisant les éléments du dossier, nous pouvons créer un rapport sur <code claass="codex1-cp">l'affaire 910</code>, tel que le Article\_313 du <code claass="codex1-cp">code Pénal</code> et des loi en vigueur,ce qui peut inclure des reférence au codex dalloz et témoignages de Victimes, des preuves et des analyses pour fournir un aperçu complet de l'affaire.
+En utilisant les éléments du dossier, nous pouvons créer un rapport sur <code class="codex1-cp">l'affaire 910</code>, tel que le Article\_313 du <code class="codex1-cp">code Pénal</code> et des loi en vigueur,ce qui peut inclure des reférence au codex dalloz et témoignages de Victimes, des preuves et des analyses pour fournir un aperçu complet de l'affaire.
