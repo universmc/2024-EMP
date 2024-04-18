@@ -47,9 +47,9 @@ async function main() {
       {role: "assistant",name:"Mandataire", content:` c'est très bien monsieur le juge nous avons entendu 2 témoin {role:user,name:temoinS,content:'promptVictime'}`},
       {role: "assistant",name:"Magistrat", content:"je note donc la présence de preuves et de témoins au dossier.([TemoinA]:{Un membre du cortège qui a assisté à la manifestation et a été exposé aux gaz lacrymogènes. Il a affirmé que la police n'a donné aucun avertissement avant d'utiliser les gaz lacrymogènes, et que des personnes vulnérables étaient présentes dans la foule} et le [temoinB]:{Un membre du cortège qui a assisté à la manifestation et a été exposé aux gaz lacrymogènes. Il a affirmé que la police n'a donné aucun avertissement avant d'utiliser les gaz lacrymogènes, et que des personnes vulnérables étaient présentes dans la foule})"},
   //  {role: "user",name:"[🌴.Groq]", content: BorderChars },
-  //  {role: "user",name:"[🌴.userGroq]", content: "groq`[📔.codex]`+`BorderChars`framWork.response" },rédige-moi un bilan de la faire en fonction du contenu 
+  //  {role: "user",name:"[🌴.Groq]", content: "groq`[📔.codex]`+`BorderChars`framWork.response" },rédige-moi un bilan de la faire en fonction du contenu 
   //  {role: "assistant",name:"[💬.cloudQuantum]", content:"[start]:Trainning mode}"},
-  //  {role: "user",name:"[🌴.userGroq]", content: "`groq`" },
+  //  {role: "user",name:"[🌴.Groq]", content: "`groq`" },
   //  {role: "assistant",name:"[📔.codex]", content:"phase[01]:[RUN]:[dial:conversation(message/response)entre(user/assistant))]"},
   //  {
   //    "role": "system",

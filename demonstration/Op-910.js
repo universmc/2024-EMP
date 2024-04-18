@@ -20,8 +20,6 @@ const borderCharsPV = {
   };
 
 async function main() {
-
- //   const systemContent = "Bienvenue dans la Team', [🌌.systemDream]! Nous sommes ravis de vous avoir à bord pour aider à construire la plateforme et projet de machine learning pour les IA. Pour que nous puissions mieux comprendre votre expérience et vos compétences, pouvez-vous nous fournir votre curriculum vitae et nous parler de vos précédentes réalisations dans le domaine du développement Web et du storyTelling, de l'intelligence artificielle Apprentissage automatique.  Nous allons commencer par vous présenter notre instance pour le systremDream (name du {role:system})et donc rediger les code source normé w3c, documentanter (readme.md [traduit en lang=Fr, français]), surtout fonctionnel respectant la logique de gantt du web sementique";
     const BorderChars = "inistlisation du template de response avec insterface graphique ASCII datase `BorderChars`";
     const affaireEscrow = affaire910
     const Accuse910 = constitution68

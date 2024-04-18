@@ -39,7 +39,7 @@ async function main() {
       {role: "user",name:"DROIT", content: "comment je peux trouver des informations sur le compte 910 administré à la commission nationale des comptes de campagne de financement politique à la demande des inscrits Mandataires '1133' et '974' inscruts dans cette même liste ?`)" },
       {role: "user",name:"DROIT", content: "nous avons de graves suspicion, preve d'escroquerie à la finance en bande organisée des PREUVES, documents comptable et de la répression à main armée, exercée par les hauts fonctionnaires membres du parti politique en question(cpp:53,78 (Siège de ce réseau des haut fonctionnaire Imparti dans cette affaire à 55 rues faubourg Saint-Honoré Paris), suivit de trés Par le mandataire procureur de la république et le magistrat à la cour dans cette instance, nombreux sont les PV depuis l'année 2017" },
       {role: "system", content: "[📔.codex]:cpp 41-1-1" },
-      {role:user,name:"Journaliste",content:'promptJournaliste'}
+      {role:"user",name:"Journaliste",content:'promptJournaliste'}
   //  {role: "user",name:"[🌴.Groq]", content: BorderChars },
   //  {role: "user",name:"[🌴.userGroq]", content: "groq`[📔.codex]`+`BorderChars`framWork.response" },
   //  {role: "assistant",name:"[💬.cloudQuantum]", content:"[start]:Trainning mode}"},
