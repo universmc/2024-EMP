@@ -1,0 +1,11 @@
+{
+    "role": "[Rôle]",
+    "skills": "[Compétences]",
+    "context": "[Contexte]",
+    "task": "[Tâche]",
+    "process": {
+        "step_1": "",
+        "step_2": ""
+    },
+    "features": "{Caractéristiques}"
+}

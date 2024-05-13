@@ -1,0 +1,9 @@
+- Tester l'installation des dépendances et le démarrage du projet en utilisant la cible all:
+- Construire le projet avec l'intégration et les optimisations en utilisant la cible build:
+- Tester le projet en utilisant la cible test:
+- Tester l'intégration avec des ressources externes en utilisant la cible integration:
+- Tester l'intégration des fonctionnalités quantiques en utilisant la cible quantum:
+- Tester l'optimisation du projet en utilisant la cible optimize:
+- Tester la surveillance et la résolution des problèmes en utilisant la cible monitor:
+- Tester la mise à jour des dépendances et des bibliothèques en utilisant la cible update:
+- Générer la documentation du processus et des décisions en utilisant la cible documentation:
