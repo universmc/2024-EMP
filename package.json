@@ -38,16 +38,5 @@
   },
   "devDependencies": {
     "electron": "^29.1.2"
-  },
-  "firebase":{
-    "packageName": "pi-app",
-    "versions": "1-0-1",
-    "apiKey": "AIzaSyANXdtTiarhxbhVl32gdv9xAX76o-corRA",
-    "authDomain": "tiktoken-1-0-1.firebaseapp.com",
-    "projectId": "tiktoken-1-0-1",
-    "storageBucket": "tiktoken-1-0-1.appspot.com",
-    "messagingSenderId": "455992674556",
-    "appId": "1:455992674556:web:2f087511b3f21720a8af79",
-    "measurementId": "G-76GT9RQ1Y2"
   }
 }
