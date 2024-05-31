@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <style class="darkreader darkreader--inline" media="screen">…</style>
+    <style class="darkreader darkreader--text" media="screen"></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquête sur l'Affaire 910 - La Macronnie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Enquête sur l'Affaire 910 - La Macronnie</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#historique">Historique</a></li>
+                <li><a href="#implications">Implications</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Bienvenue dans cette enquête approfondie sur l'Affaire 910, un dossier complexe impliquant la Macronnie. Notre objectif est de démêler les fils de cette affaire en explorant ses origines, ses implications et ses conséquences potentielles.</p>
+        </section>
+
+        <section id="historique">
+            <h2>Historique</h2>
+            <p>L'affaire 910 a pris naissance dans un contexte politique tumultueux. Les premières traces de cette affaire remontent à l'année 2023, lorsque des documents sensibles ont été divulgués sur GitHub par l'utilisateur universmc. Ces documents ont révélé des informations compromettantes concernant des membres influents de la Macronnie.</p>
+            <p>Les documents peuvent être consultés sur le dépôt GitHub suivant : <a href="https://github.com/universmc/affaire_910" target="_blank">Affaire 910 sur GitHub</a>.</p>
+        </section>
+
+        <section id="implications">
+            <h2>Implications</h2>
+            <p>Les révélations contenues dans les documents de l'affaire 910 ont des implications profondes pour la Macronnie. Elles mettent en lumière des pratiques douteuses et des conflits d'intérêts potentiels au sein du gouvernement. Les acteurs impliqués doivent désormais répondre à des questions difficiles concernant leur intégrité et leur transparence.</p>
+            <p>Les répercussions de cette affaire pourraient modifier le paysage politique français et influencer les prochaines élections.</p>
+        </section>
+
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>En conclusion, l'affaire 910 représente un tournant majeur dans la politique française contemporaine. La divulgation de ces documents a ouvert une boîte de Pandore, obligeant les responsables à rendre des comptes et à réévaluer leurs actions. Nous continuerons à suivre cette affaire de près et à vous tenir informés des développements futurs.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Enquêteur Journaliste. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

@@ -1,20 +1,18 @@
 {
-  "name": "pi-api",
-  "version": "1.0.1",
-  "description": "pi -ia",
-  "main": "index.js",
+  "name": "affaire_910",
+  "version": "1.0.0",
+  "description": "enquête approfondie sur un scandale politique au financier 2008 à 2025, rappart 49-3 en recidive illégale",
+  "main": "main.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "srv": "node srv/srv.js",
-    "groq": "node srv/groq.js",
     "style": "sass --watch/sass/bootstrap.scss src/css/style1/css"
   },
   "keywords": [],
-  "author": "universmc",
+  "author": "",
   "license": "GNU",
   "dependencies": {
     "@electron-forge/plugin-webpack": "^7.3.0",
