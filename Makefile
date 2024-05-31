@@ -42,7 +42,7 @@ all: $(MAGIC_TARGETS)
 
 
 Telegram:
-	@echo "Welcom To Telegram Univers Mc.ia."
+	@echo "DOSSIER DE AFFAIRE_910"
 	@./srv/Telegram/bin.sh
 
 

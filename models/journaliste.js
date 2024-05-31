@@ -18,6 +18,9 @@ const borderCharsPV = {
     intersectionBottom: '╩',
     intersectionCross: '╬',
   };
+
+
+
   
 async function main() {
 
@@ -35,8 +38,9 @@ async function main() {
       {role: "user",name:"procureurRépublique", content: `${CadreProc}`},
       {role: "user",name:"procureurRépublique", content: `${constitution68}`},
       {role: "user",name:"procureurRépublique", content: `${Affaire_910}`},
-      {role: "assistant",name:"[📔.codex]", content:"phase[01-1]:[RUN]:[Rapport en vue des elements du dossier ${Dossier}`)]"},
-      //  {role: "user",name:"[🌴.Groq]", content: BorderChars },
+      {role: "assistant",name:"[📔.codex]", content:"phase[01-1]:[RUN]:[tu as incarneras le rôle de journaliste dans cette instance groq-sdk dans ta mission enquêté sur 'git branch 'https://github.com/universmc/affaire_910' ladite Macronnie)]"},
+      {role: "assistant",name:"[📔.codex]", content:"phase[01-2]:[RUN]:[Rapport et vue les elements du dossier ${Dossier} ? si Oui Rédigez le Le développement de la réponse au format HTML section par section`)]"},
+      {role: "user",name:"[🌴.Groq]", content:`groq index.html`},
       //  {role: "user",name:"[🌴.Groq]", content: "groq`[📔.codex]`+`BorderChars`framWork.response" },rédige-moi un bilan de la faire en fonction du contenu 
       //  {role: "user",name:"[🌴.Groq]", content: BorderChars },
   //  {role: "assistant",name:"[💬.cloudQuantum]", content:"[start]:Trainning mode}"},
@@ -65,9 +69,9 @@ async function main() {
     stop: null,
     stream: false
 }).then((chatCompletion)=>{
-    const mdContent = chatCompletion.choices[0]?.message?.content;
-    const outputFilePath = "Journal_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
-    fs.writeFileSync(outputFilePath, mdContent);
+    const htmlContent = chatCompletion.choices[0]?.message?.content;
+    const outputFilePath = "Journaliste1_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".html";
+    fs.writeFileSync(outputFilePath, htmlContent);
     console.log("Documentation du contructor généré et enregistré dans " + outputFilePath);
 });
 }
