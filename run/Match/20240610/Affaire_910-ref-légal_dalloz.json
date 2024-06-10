@@ -1,4 +1,9 @@
 {
+    "composition_penal": {
+    "article": "41-1-1",
+    "description": "Composition pénale",
+    "source": "https://www.dalloz.fr/documentation/Document?id=CPT"
+    },
     "codePenalReferences": {
     "scrows": "ACAB_68",
     "FraudeCompteCampagen": "L52 - 2 du code electoral EMP,1378,EM,910,RE,1402,EM!",
