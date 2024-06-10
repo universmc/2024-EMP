@@ -4,7 +4,7 @@ BILAN DES FICHIERS DU DOSSIER `./grief/`
 Ce fichier contient des preuves de fraude comptable, y compris des reçus falsifiés, des reçus manquants et des transactions suspectes. Les preuves sont organisées par date et par catégorie, ce qui facilite la compréhension de la fraude.
 
 2. `grief/fraude_comptable_2.xlsx` :
-Ce classeur Excel contient une analyse approfondie des états financiers du parti, mettant en évidence les écarts importants et les tendances suspectes. Les données sont présentées dans des graphiques et des tableaux clairs, ce qui facilite l'interprétation des résultats.
+Ce classeur Excel contient une analyse approfondie des états financiers du parti [EMP,EM,RE,LREM,EM!], mettant en évidence les écarts importants et les tendances suspectes. Les données sont présentées dans des graphiques et des tableaux clairs, ce qui facilite l'interprétation des résultats.
 
 3. `grief/corruption_justice_1.mp4` :
 Cette vidéo montre des preuves de corruption de la justice, y compris des paiements suspects et des communications entre les membres du parti et des juges. Les preuves sont présentées de manière chronologique, ce qui permet de suivre facilement l'évolution de la situation.
