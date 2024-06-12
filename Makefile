@@ -4,10 +4,10 @@ NODE_PORT = 5144
 NODE_APP = index.js
 
 menu :
-	@echo "Welcom To Quantum Univere."
+	@echo "welcom to Prison de la Bastille, https://boutique.elysee.fr"."
 	@echo""
 	@echo"╔═════════════════════════════════════╗     ╔═════════════════════════════════════════════════════════════════════╗"
-	@echo"╠═══════════ ✨ Pi Console ═══════════╣     ║  [💫] [💬] [📚] [🌌] [✨] [⚡️] [💰] [🌴] [📱] [📡]<            >[🛰]║"
+	@echo"╠═══════════-- 🤖 adoPi --════════════╣     ║  [💫] [🏛] [🤗] [💬] [📚] [💻] [📱] [🏦] [📡]<               >[🛰]║"
 	@echo"║                                     ║     ╠═════════════════════════════════════════════════════════════════════╣"
 	@echo"║                                     ║     ║                                                                     ║"
 	@echo"║                                     ║     ║                                                                     ║"
@@ -29,7 +29,7 @@ menu :
 	@echo"║                                     ║     ║                                                                     ║"
 	@echo"║                                     ║     ║                                                                     ║"
 	@echo"╠═════════════════════════════════════╣     ╠═════════════════════════════════════════════════════════════════════╣"
-	@echo"║(∏)                                  ║     ║[💻.📱]:/<                                                        /%>║"
+	@echo"║(PS1)                                ║     ║[PS2]:/<                                                          /%>║"
 	@echo"╚═════════════════════════════════════╝     ╚═════════════════════════════════════════════════════════════════════╝"	
 	@echo""
 
@@ -41,9 +41,9 @@ all: $(MAGIC_TARGETS)
 # Magic COMPILER groq quantum
 
 
-Telegram:
+update:
 	@echo "DOSSIER DE AFFAIRE_910"
-	@./srv/Telegram/bin.sh
+	@git clone https://github.com/universmc/affaire_910.git
 
 
 codex:

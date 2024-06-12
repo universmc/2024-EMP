@@ -1,0 +1,54 @@
+Plan de développement optimisé avec un modèle de Gantt :
+
+1. **Recherche et collecte de preuves (J-30 à J-15)**
+   - Identifier et localiser les documents comptables pertinents
+   - Recueillir les témoignages vidéo et les preuves de répression physique
+   - Indexer et vérifier les preuves collectées
+
+2. **Analyse et corroboration des preuves (J-14 à J-7)**
+   - Analyser les documents comptables et les témoignages
+   - Vérifier l'authenticité et la fiabilité des preuves
+   - Consolider les preuves et établir les liens entre eux
+
+3. **Rédaction du mémoire et des arguments juridiques (J-6 à J-3)**
+   - Rédiger le mémoire en détail, en incluant les faits, les éléments de preuve et les lois applicables
+   - Préparer les arguments juridiques pour soutenir l'accusation
+   - Examiner et réviser le mémoire
+
+4. **Préparation de la présentation (J-2 à J)**
+   - Créer une présentation visuelle pour soutenir le mémoire
+   - Intégrer les preuves et les arguments dans la présentation
+   - Répéter et s'entraîner à présenter
+
+5. **Audience et plaidoirie (J)**
+   - Présenter le mémoire et les preuves à l'audience
+   - Argumenter en faveur de l'accusation
+   - Répondre aux questions et objections
+
+6. **Suivi et conclusions (J+1 à J+7)**
+   - Suivre les développements après l'audience
+   - Préparer les conclusions et les prochaines étapes
+   - Archiver et organiser les preuves et les documents pour référence future
+
+Le diagramme de Gantt suivant illustre le plan de développement optimisé :
+
+```lua
+    J-30  J-25  J-20  J-15  J-10  J-5   J   J+1   J+5   J+7
+   +----+----+----+----+----+----+----+----+----+----+
+   |    | R  | A  | E  | P  | A  | A  | S  | F  | C   |
+   +----+----+----+----+----+----+----+----+----+----+
+        Recherche          Analyse        Rédaction
+        et collecte                    et plaidoirie
+        de preuves                de la présentation
+                                 Suivi et conclusions
+```
+
+Légende :
+- R : Recherche et collecte de preuves
+- A : Analyse et corroboration des preuves
+- E : Rédaction du mémoire et des arguments juridiques
+- P : Préparation de la présentation
+- A : Audience et plaidoirie
+- S : Suivi
+- F : Conclusions
+- C : Archivage et organisation

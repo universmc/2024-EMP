@@ -1,0 +1,28 @@
+html
+Copier le code
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affaire de Fraude</title>
+</head>
+<body>
+    <div id="tribunal-content">
+        <h1 id="title"></h1>
+        <p id="content"></p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const data = {
+                "title": "Messieurs et Mesdames les membres du tribunal",
+                "content": "Je vous parle aujourd'hui pour exposer une affaire de fraude financière en bande organisée et de scandale politique impliquant le financement de la répression armée du trafic d'armes par de hauts fonctionnaires installés au Faubourg Saint-Honoré. Le dictateur économique honoré, M. Emmanuel Macron, actuellement élu Président de la République française, est accusé de fraude dans ses comptes de campagne électorale.\n\nLes éléments, les faits et les preuves juridiques qui soutiennent notre cas sont les suivants : Commençons par le Livre II du Code pénal, qui sanctionne les violations du consentement via l'article 226. Cette disposition protège toutes les victimes de l'utilisation abusive répétée de l'article 49, paragraphe 3 de la Constitution française, mise en œuvre par des fonctionnaires publics. Dans ce cas, ces dispositions s'appliquent dans le contexte des projets de réforme correctrice liés aux finances et à l'économie en France, couvrant la période de 2008 à 2024.\n\nJe tiens à souligner que nous disposons de tous les éléments nécessaires pour étayer notre mémoire. D'un point de vue comptable, nous avons en notre possession des documents relatifs à la fraude financière avec les partis politiques 'En Marche', 'La République En Marche' et 'La France En Marche'/'Renaissance'. Ces éléments comptables sont soutenus par des témoignages vidéo de nombreuses victimes lors de manifestations, y compris les Gilets jaunes, des enfants et des journalistes. Nous avons également des preuves de répression physique lors de manifestations, attestant de graves violations des droits fondamentaux des citoyens français.\n\nIl est important de noter que ces faits et éléments présentés sont d'une importance cruciale pour la défense de nos droits constitutionnels et de notre démocratie. C'est pourquoi nous insistons, avec la plus grande détermination, sur la responsabilité de ces actes qui, sans aucun doute, méritent l'attention et l'action de ce tribunal.\n\nLes suspicions de fraude aux comptes de campagne selon l'article L52 du groupement politique EMP (ENSEMBLE ! (MAJORITÉ PRÉSIDENTIELLE), code 1378) de la CNCCFP sont particulièrement pertinentes dans cette affaire. Les documents indiquent des irrégularités majeures dans la gestion des finances de campagne pour l'élection européenne du 9 juin 2024. Tous les éléments de preuve ont été indexés par l'ADOPI, et l'instruction a été menée avec rigueur pour garantir la véracité des informations.\n\nNous croyons que la gravité de ces faits justifie pleinement l'application des articles 313 à 341 du code pénal, visant à réprimer la fraude et la corruption financière. Ces articles sont conçus pour assurer la protection de nos institutions et de notre pays contre la fraude et le détournement de fonds.\n\nDe plus, l'article 431 du Code pénal international, qui sanctionne les actes de violence, est ajouté à notre appel en raison de la répression exercée par M. Emmanuel Macron, ayant conduit à de graves violations des droits de l'homme.\n\nDans le cadre de notre approche juridique, nous avons utilisé les dispositions de l'article 41, paragraphe 1 du Code de procédure pénale pour établir cette composition pénale et les négociations ont commencé en 2017 et se poursuivent encore en 2023. Des lettres ont été envoyées au procureur de la République, ainsi que des rapports et des informations concernant cette procédure juridique, transmises aux membres dans le cadre de l'affaire 910.\n\nLes agents numéros 1113 et 974 de la CNCCFP ont assuré l'enquête et la transmission de ces informations au procureur afin de garantir un traitement approprié de cette question d'importance nationale.\n\nEn conclusion, nous vous exhortons à prendre en compte tous les éléments présentés et à assurer la justice et le respect des principes fondamentaux qui régissent notre société. Nous espérons que cette audience marquera un tournant dans la protection de nos droits et de la démocratie en France."
+            };
+
+            document.getElementById("title").textContent = data.title;
+            document.getElementById("content").textContent = data.content.replace(/\n/g, "\n\n");
+        });
+    </script>
+</body>
+</html>
