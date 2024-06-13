@@ -1,0 +1,1 @@
+"💥 En 2024, au cœur de Paris, un vent de changement souffle! 🌬️ Les citoyens, co-signataires de l'art 68, s'unissent Entre la censure et donc et donc les mesures d'exécution de la cencure d'Emmanuel Macron article 49 alinéa 2 💥"
