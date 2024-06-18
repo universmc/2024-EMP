@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('src/json/affaire_910.json')
+    fetch('src/json/pipeline.json')
         .then(response => response.json())
         .then(cours => {
             const sommaire = document.getElementById('sommaire');
-            const contenuCours = document.getElementById('commission');
+            const contenuCours = document.getElementById('Comission');
 
             cours.forEach((section, index) => {
                 // Créer le lien du sommaire

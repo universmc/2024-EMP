@@ -1,0 +1,19 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2 {
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.source {
+	font-style: italic;
+}
