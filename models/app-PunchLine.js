@@ -5,11 +5,11 @@ const groq = new Groq();
 async function main(
 ) {
     
-  const citation ="Le combat des idées se fait maintenant avec les gants CONTRE Emmanuel Macron, le champion du monde de la PUNG line! 🥊🇫🇷";
+  const citation ="Le combat des idées se fait maintenant avec les gants CONTRE Emmanuel Macron, le champion du monde de la PUNCHLINE! 🥊🇫🇷";
 
-  const sujet = "Combat des idées avec Emmanuel Macron";
-  const verbe = "BOXER";
-  const complement = "Avec des gants de boxe et des emojis Punchline";
+  const sujet = "Combat des idées AVEC Emmanuel Macron";
+  const verbe = "worker";
+  const complement = "Avec des emojis et des emojis Punchline";
 
 
   const contexte =
@@ -17,7 +17,7 @@ async function main(
     const PunchLine = contexte;
 
 
-    const Ressource = "http[`http://archive.org`projet `https://github.com/universmc/DisKetCrypto` Méthode de recherche google.com gcloud ml projetFinal http://Ia.univers-mc.cloud/DisKetCrypto/ CDN Bootstrap(css:<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH' crossorigin='anonymous'>;javascript:<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js' integrity='sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz' crossorigin='anonymous'></script>)";
+    const Ressource = "http[`http://archive.org`projet `https://github.com/universmc/affaire_910.git` Méthode de recherche fetch https://google.com gcloud CDN Bootstrap (css:<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH' crossorigin='anonymous'>;javascript:<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js' integrity='sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz' crossorigin='anonymous'></script>)";
     const S_R = "(Élysée = 🏛) id='epr-iframe-js' Phone MaCron  VOIX/IP_[📱]🇫🇷_--- ------=_Part_1576_277651018.1680509012525 src='https://ecrire.elysee.fr/fr/epr/form' scrolling='yes' title='Email de confirmation envoyé – Formulaire Écrire au Président de la République ' data-form-title='Écrire à la présidence de la république' data-mention-title='Données personnelles – Formulaire écrire au Président de la République' data-email-confirmation-title='Email de confirmation envoyé – Formulaire Écrire au Président de la République' data-error-title='Erreur sur le formulaire écrire à la Présidence de la République' style='overflow: hidden; height: 2714px'";
 
     const gameplay1 = "🇫🇷 Sélectionnez votre avatar et vos emojis.sh {🥊} personnalisés avec des emojis Punchline";
@@ -65,7 +65,7 @@ async function main(
 }).then((chatCompletion) => {
     const mdContent = chatCompletion.choices[0]?.message?.content;
     const outputFilePath =
-      "data/punchline/🥊🇫🇷-68_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
+      "🥊🇫🇷-68_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
     fs.writeFileSync(outputFilePath, mdContent);
     console.log(
       "Documentation générée et enregistrée dans " + outputFilePath

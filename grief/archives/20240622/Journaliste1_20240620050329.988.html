@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${titre}</title>
+    <style>
+        body {
+            background-color: #f5f5dc;
+            color: #333;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+        h1, h2 {
+            color: #f77f00;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>${titre}</h1>
+    ${sousSections.map(section => `
+    <h2>${section.sousTitre}</h2>
+    <div>
+        ${groq.file(section.contenuMarkdown).then(content => content.toString())}
+    </div>
+    `).join('')}
+</body>
+</html>
