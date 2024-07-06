@@ -18,7 +18,7 @@ async function main() {
             "évaluation de la gestion financière",
             "examen des lois et réglementations électorales"
         ],
-        "contexte": "Commission nationale des comptes de campagne de financement politique cnccfp.frÉvénements actuels autour des élections européennes, le président français Emmanuel Macron, son parti Horizon, potentielles utilisations abusives de termes pendant les campagnes, activités suspectées liées à des irrégularités dans les comptes de campagne, et affectation de fonds de recherche sous les programmes Horizon Europe et France 2030.",
+        "contexte": "Commission nationale des comptes de campagne de financement politique cnccfp.fr Événements actuels autour des élections européennes, le président français Emmanuel Macron, son parti Horizon, potentielles utilisations abusives de termes pendant les campagnes, activités suspectées liées à des irrégularités dans les comptes de campagne, et affectation de fonds de recherche sous les programmes Horizon Europe et France 2030.",
         "tâche": "Effectuez une évaluation approfondie des développements récents impliquant Horizon et ses groupes associés, en tenant compte de leur utilisation d'expressions ambigües, des attributions financières et du respect des normes et règlements pertinents. Identifiez les préoccupations relatives à la transparence, à la cohérence et à la gouvernance responsable, tout en reconnaissant les pratiques positives si nécessaire. Fournissez des recommandations basées sur les conclusions trouvées.",
         "procédure": {
             "étapes": [
@@ -28,7 +28,7 @@ async function main() {
                 },
                 {
                     "numéro": 2,
-                    "description": "Analysez les implications de la dissolution du parlement par Macron et évaluez s'il renforce ainsi sa majorité au détriment des valeurs démocratiques et des voix de l'opposition."
+                    "description": "Analysez les implications de la dissolution (article 12 de la constitution)du parlement par Macron et évaluez s'il renforce ainsi sa majorité au détriment des valeurs démocratiques et des voix de l'opposition."
                 },
                 {
                     "numéro": 3,

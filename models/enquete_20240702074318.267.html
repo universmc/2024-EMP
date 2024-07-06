@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dossier de mise en état : Affaire contre la Macronnie</title>
+  <style>
+    body {
+      background-color: #bdbdbd;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
+    h1 {
+      color: #0b2a5f;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    h2 {
+      color: #0b2a5f;
+      padding: 0.5rem 0;
+    }
+    p {
+      color: #333;
+      padding: 0.5rem 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      padding: 0.2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dossier de mise en état : Affaire contre la Macronnie</h1>
+  <section>
+    <h2>Contexte</h2>
+    <p>
+      Des suspicions de fraudes financière et électorale lors des programmes Horizon 2027 et Horizon 2030, lors des élections européennes, après la dissolution de l'assemblée nationale et dans l'examen de nouvelles propositions législatives.
+    </p>
+    <p>
+      Rôle : Journaliste d'enquête
+    </p>
+    <ul>
+      <li>Compétences : Recherche financière</li>
+      <li>Compétences : Analyse juridique</li>
+      <li>Compétences : Entretien de personnalités politiques</li>
+      <li>Compétences : Compréhension des processus démocratiques</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Tâches</h2>
+    ${tasks}
+  </section>
+</body>
+</html>
+
+```javascript
+const tasks = [
+  {
+    "index": 1,
+    "directive": "Recherche sur les programmes Horizon 2027 et Horizon 2030",
+    "étapes": [
+      "Recueillir les documents officiels liés aux programmes Horizon 2027 et Horizon 2030.",
+      "Analyser les fonds attribués à chaque projet.",
+      "Identifier toute potentielle malversation ou irrégularité."
+    ],
+    "objectifs": [
+      "Déterminer s'il existe un détournement de fonds européens."
+    ]
+  },
+  {
+    "index": 2,
+    "directive": "Analyse des comptes de campagne durant les élections européennes",
+    "étapes": [
+      "Obtenir les documents financiers provenant des comptes de campagne.",
+      "Vérifier toutes les dépenses contre le budget prévu.",
+      "Comparer les conclusions au cadre réglementaire électoral."
+    ],
+    "objectifs": [
+      "Confirmer ou rejeter les soupçons de fraude électorale conformément au cadre réglementaire."
+    ]
+  },
+  {
+    "index": 3,
+    "directive": "Examen de la dissolution de l'assemblée nationale",
+    "étapes": [
+      "Étudier les motifs ayant conduit à la dissolution de l'assemblée nationale.",
+      "Prendre contact avec les principales parties prenantes impliquées dans le processus.",
+      "Évaluer les implications de cette décision sur la démocratie."
+    ],
+    "objectifs": [
+      "Mesurer l'effet de la dissolution de l'assemblée nationale sur la démocratie."
+    ]
+  },
+  {
+    "index": 4,
+    "directive": "Étude des nouveaux projets de loi",
+    "étapes": [
+      "Se procurer les brouillons des nouveaux projets de loi.",
+      "Analyser les articles litigieux contenus dans ceux-ci.",
+      "Échanger avec des experts pour comprendre leur point de vue."
+    ],
+    "objectifs": [
+      "Évaluer l'incidence de ces propositions sur la liberté d'expression et la possibilité d'action."
+    ]
+  },
+  {
+    "index": 5,
+    "directive": "Examen de la publicité commerciale pendant la campagne électorale",
+    "étapes": [
+      "Analyse des éléments du langage et des pratiques commerciales d'Emmanuel Macron",
+      "Recueil des discours et déclarations",
+      "Étude des produits vendus sur boutique.elysee.fr",
+      "Confrontation avec les règles éthiques pour les fonctionnaires",
+      "Évaluer l'impact du langage et des pratiques commerciales sur l'image et la transparence du Président de la République",
+      "Rechercher les liens potentiels entre la promotion d'événements sportifs tels que les JO et des activités commerciales de l'Élysée.",
+      "Étudier les éventuelles implications juridiques du sponsoring d'événements pendant la campagne électorale."
+    ],
+    "objectifs": [
+      "Déterminer si le sponsoring d'événements commerciaux tels que les JO pendant la campagne électorale viole le code électoral français."
+    ]
+  }
+];
+
+const taskHtml = tasks.map((task) => `
+  <section>
+    <h2>Tâche ${task.index}</h2>
+    <p><strong>Directive :</strong> ${task.directive}</p>
+    <h3>Étapes</h3>
+    <ul>
+      ${task.étapes.map((étape) => `<li>${étape}</li>`).join("")}
+    </ul>
+    <h3>Objectifs</h3>
+    <ul>
+      ${task.objectifs.map((objectif) => `<li>${objectif}</li>`).join("")}
+    </ul>
+  </section>
+`);
+
+document.querySelector("section > h2").remove();
+document.querySelector("section").innerHTML += taskHtml.join("");
+```
