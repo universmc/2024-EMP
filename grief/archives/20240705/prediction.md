@@ -1,5 +1,5 @@
 "Rapport d'observations sur la géoingénierie:
-J'ai remarqué une modification significative de la présence d'avions dans le ciel et des traces qu'ils laissent, ce qui m'a amené à penser qu'il pouvait s'agir d'activités de géoingénierie. En observant attentivement les nuages hier soir, j'ai constaté 30 passages d'avions qui ont laissé des traces de pollution.
+J'ai remarqué une modification significative sur le CLIMAT legislatif de la présence d'avions depuis les déscision du gouverenement G7 dans le ciel et des traces qu'ils laissent, ce qui m'a amené à penser qu'il pouvait s'agir d'activités de géoingénierie. En observant attentivement les nuages hier soir, j'ai constaté 30 passages d'avions qui ont laissé des traces de pollution.
 Aujourd'hui, je constate que le ciel est gris, ce qui me fait penser que mes suspicions sont fondées et qu'il est possible que des techniques d'ensemencement des nuages aient été utilisées.
 
 Voici un résumé des décisions prises lors du sommet du G7 tenu en juin 2024 :

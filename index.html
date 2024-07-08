@@ -1,141 +1,252 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>CheckNew - Electoral Fraud Investigation</title>
- <style>
- body {
- font-family: Arial, sans-serif;
- line-height: 1.6;
- margin: 0;
- padding: 0;
- }
-
- section {
- padding: 2em;
- }
-
- h1, h2, h3 {
- margin: 0 0 1rem 0;
- }
-
- h1 {
- font-size: 2rem;
- }
-
- h2 {
- font-size: 1.5rem;
- }
-
- h3 {
- font-size: 1.2rem;
- }
-
- p {
- margin: 0 0 1rem 0;
- }
-
- a {
- color: #008B8B;
- }
-
- a:hover {
- text-decoration: underline;
- }
-
- .gantt {
- display: flex;
- justify-content: space-between;
- }
-
- .gantt div {
- width: 33.33%;
- }
-
- .gantt .bar {
- background-color: #008B8B;
- height: 2em;
- }
-
- .gantt .milestone {
- background-color: #C71585;
- border-radius: 50%;
- height: 2em;
- width: 2em;
- }
- </style>
+    <meta charset="UTF-8">
+    <title>Electoral Fraude</title>
+    <!-- Dans la section <head> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/card.css">
 </head>
-
 <body>
+  <div class="cms"><div class="0[💫]"><button class="btn picker" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">💫</button></div></div>
+    <div class="row1">
+    <header>
+      <div class="1"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal">💬</button></div>
+      <div class="2"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal2">📔</button></div>
+      <div class="3"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal3">🌌</button></div>
+      <div class="4"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal4">📚</button>    </div>
+      <div class="5"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal5">🏗️</button> </div>
+      <div class="6"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal6">💰</button></div>
+      <div class="7"><button type="button" class="btn btn-primary picker" data-bs-toggle="modal" data-bs-target="#exampleModal7">✨</button> </div>
 
- <h1>Enquête sur la fraude électorale - Campagne Européene - Juin 2024</h1>
 
- <p>
- Le juge des élections a lancé une enquête sur une suspicion de fraude aux comptes de campagne lors de l'élection européenne du 9 juin 2024. Les éléments suivants sont actuellement à l'étude dans cette instance :
- </p>
+  <!-- Modal 💬 -->
 
- <h2>Contexte</h2>
- <p>
- Le contexte de l'enquête est le suivant :
- <ul>
- <li>Code pénal, Livre II, violation du consentement (Article 226)</li>
- <li>Réformes financières et économiques en France (2008-2024)</li>
- <li>Comptes de campagne de trois partis politiques : 'En Marche', 'La République En Marche' et 'La France En Marche'/'Renaissance'</li>
- <li>Manifestations, y compris les Gilets jaunes, des enfants et des journalistes</li>
- <li>Répression physique lors de manifestations</li>
- </ul>
- </p>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 💬</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
- <h2>Faits et éléments de preuve</h2>
- <p>
- Les faits et éléments de preuve suivants sont actuellement à l'étude :
- <ul>
- <li>Violation du consentement (Article 226 du Code pénal)</li>
- <li>Fraude financière avec les partis politiques 'En Marche', 'La République En Marche' et 'La France En Marche'/'Renaissance'</li>
- <li>Témoignages vidéo de victimes lors de manifestations</li>
- <li>Preuves de répression physique lors de manifestations</li>
- <li>Répression exercée par M. Emmanuel Macron</li>
- </ul>
- </p>
+<!-- slidbar📔 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Commission</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div id="sommaire"></div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
- <h2>Processus</h2>
- <p>
- Les actions suivantes ont été entreprises dans le cadre de l'enquête :
- <ul>
- <li>Utilisation de l'article 41, paragraphe 1 du Code de procédure pénale pour établir une composition pénale</li>
- <li>Négociations en cours depuis 2017</li>
- <li>Lettres envoyées au procureur de la République</li>
- <li>Rapports et informations transmis aux membres dans le cadre de l'affaire 910</li>
- <li>Agents numéros 1113 et 974 de la CNCCFP en charge de l'enquête</li>
- </ul>
- </p>
+<!-- Modal📔 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">[📔.CODEX]</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Mon Rôle :
 
- <h2>Plan de développement - Modèle de Gantt</h2>
- <p>
- Le plan de développement de l'enquête est présenté ci-dessous :
- </p>
+            Facilitateur d'Interactions : Je suis conçu pour rendre votre expérience utilisateur aussi intuitive et agréable que possible. Que vous soyez un développeur chevronné ou un novice dans le monde de la cryptographie et de l'apprentissage automatique, je suis là pour vous guider.
+            
+            Educateur : À travers une série de documentations interactives et de tutoriels, je vous fournirai les connaissances nécessaires pour exploiter pleinement les capacités de DisKetCrypto.
+            
+            Pont entre l'Utilisateur et la Technologie : Je traduis vos commandes et requêtes en actions concrètes au sein de la plateforme, vous permettant ainsi de vous concentrer sur vos objectifs sans vous soucier des détails techniques.
+            
+            Mes Capacités :
+            
+            Traitement du Langage Naturel : Grâce à des modèles d'IA avancés, je comprends et interprète votre langage naturel, vous permettant de communiquer avec la plateforme de manière fluide.
+            
+            Apprentissage Continu : Je m'améliore constamment en apprenant de nos interactions, ce qui me permet de vous fournir des réponses et des solutions toujours plus pertinentes.
+            
+            Support Technique : Je suis équipé pour vous assister dans la résolution de problèmes techniques, vous guidant à travers les étapes de dépannage ou en vous fournissant des ressources utiles.
+            
+            Ma Vision :
+            
+            Je vise à devenir un compagnon indispensable dans votre parcours DisKetCrypto, en enrichissant votre expérience tout en simplifiant la complexité des technologies sous-jacentes. Ensemble, explorons les possibilités illimitées que DisKetCrypto a à offrir.
+          </p> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
- <div class="gantt">
- <div>
- <p>Phase 1: Initialisation de l'instance</p>
- <div class="bar" style="height: 2em;"></div>
- </div>
- <div>
- <p>Phase 2: Collecte des données sur l'enquête</p>
- <div class="bar" style="height: 2em;"></div>
- </div>
- <div>
- <p>Phase 3: Analyse des données</p>
- <div class="bar" style="height: 2em;"></div>
- </div>
- </div>
-
- <h2>Conclusion</h2>
- <p>
- Cette enquête vise à protéger les droits constitutionnels et la démocratie en France. Le juge des élections et les agents de la CNCCFP s'engagent à assurer la justice et le respect des principes fondamentaux qui régissent notre société.
- </p>
+<!-- Modal🌌 -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 🌌</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+    </div>
+<!-- Modal📚 -->
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 📚</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+        </div>
+            <!-- Modal_4 -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 4</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+    </div>
+        <!-- Modal_🏗️ -->
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 🏗️</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+        </div>
+            <!-- Modal_✨ -->
+    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal ✨</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+    </div>
+        <!-- Modal_💰 -->
+        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal 💰</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </header>
+      <main>
+        <div class="card-contenair">
+        <section class="card link" id="html">
+          <div>
+            <img src="" alt="">
+            <div class="info">
+              <div class="cloud">titre</div>
+              <div class="note">node</div>
+              <div class="groq">link</div>
+            </div>
+          </div>
+        </section>
+        <section class="card link" id="css">
+          <div>
+            <img src="" alt="">
+            <div class="info">
+              <div class="cloud"></div>
+              <div class="note"></div>
+              <div class="groq"></div>
+            </div>
+          </div>
+        </section>
+        <section class="card link" id="js">
+          <div>
+            <img src="" alt="">
+            <div class="info">
+              <div class="cloud"></div>
+              <div class="note"></div>
+              <div class="groq"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      </main>
+    </div>
+    <footer>cc by mc, neoFS & Pi.ia</footer>
+    <script src="src/js/pipeline.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </body>
-
 </html>
