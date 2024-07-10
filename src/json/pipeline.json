@@ -1,14 +1,18 @@
 [       
     {
-    "titre": "mise à jour de l'affaire de scandale politique au financier",
+    "titre": "Complément d'enquête defraude électorale et politique au financier 9/07/2024",
     "sousSections": [
         {
             "sousTitre": "Commission d'enquête",
             "contenu": "Dans cette l'ère de la Macronnie, la France est le théâtre d'une lutte entre les forces du pouvoir et les citoyens précaires et opprimés. Les travailleurs pauvres, les gilets jaunes, et ceux qui vivent sous le seuil de pauvreté sont les héros malgré eux de cette histoire, confrontés quotidiennement à la violence et à la peur De la fin du mois précarité et de la répression financière les amendements."
         },
         {
-            "sousTitre": "FullStack",
-            "contenuMarkdown": "src/md/cours-fullstack.md"
+            "sousTitre": "Press",
+            "contenuMarkdown": "src/md/press.md"
+        },
+        {
+            "sousTitre": "update",
+            "contenuMarkdown": "src/md/update.md"
         }
     ]
     },
@@ -16,8 +20,8 @@
         "titre": "Situaltion",
         "sousSections": [
             {
-                "sousTitre": "Introduction au DevOps",
-                "contenuMarkdown": "md/cours-devops.md"
+                "sousTitre": "suspicion de fraude aux comptes de campagne",
+                "contenuMarkdown": "md/preuve.md"
             },
             {
                 "sousTitre": "Déploiement et Maintenance",
@@ -26,28 +30,15 @@
         ]
     },
     {
-        "titre": "Demonstration",
+        "titre": "Elements de preuve",
         "sousSections": [
             {
-                "sousTitre": "HTML",
+                "sousTitre": "chronologie des faits",
                 "contenuMarkdown": "md/cours-frontend-html.md"
             },
             {
-                "sousTitre": "CSS",
-                "contenuMarkdown": "md/cours-frontend-css.md"
-            },
-            {
-                "sousTitre": "SASS",
-                "contenuMarkdown": "md/cours-frontend-sass.md"
-            }
-        ]
-    },
-    {
-        "titre": "Back-End",
-        "sousSections": [
-            {
-                "sousTitre": "PHP",
-                "contenuMarkdown": "md/cours-backend-php.md"
+                "sousTitre": "documentation",
+                "contenuMarkdown": "md/cours-frontend-html.md"
             }
         ]
     }

@@ -6,13 +6,15 @@ const groq = new Groq();
 
 async function main() {
 
-    const affaireEM = "git commit -m 'regulilèrement mis à jour https://github.com/universmc/universmc/affaire_910";
+    const affaireEM = "git commit -m 'regulilèrement mis à jour' https://github.com/universmc/affaire_910";
 
     const chatCompletion = await groq.chat.completions.create({
 
     "messages": [
       {role: "system",name:"[📔.codex]", content:"phase[01]:[RUN]:[brainstorming(session.timestamp)]"},
       {role: "assistant",name:"adopi", content:affaireEM},
+      {role: "assistant",name:"adopi", content:"mise à jour du sommaire et j'interfaces graphiques présentation de l'affaire de fraude électorale datant du 9 juin 2024"},
+      {role: "user",name:"Journaliste", content:"bonjou je suis journaliste, instruction > élaboration d'un plan de communication pour informer le public et les parties prenantes concernées de l'affaire et de ses conséquences mise a jours sur https://github.com/universmc/affaire_910 "},
     ],
     model: "mixtral-8x7b-32768",
     temperature: 0.5,

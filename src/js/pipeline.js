@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(cours => {
             const sommaire = document.getElementById('sommaire');
-            const contenuCours = document.getElementById('Comission');
+            const contenuCours = document.getElementById('content');
 
             cours.forEach((section, index) => {
                 // Créer le lien du sommaire
