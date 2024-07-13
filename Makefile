@@ -45,6 +45,7 @@ update:
 	@echo "Mise en état du dossier de l'enquête sur les partie Politique de la Macronnie"
 	@git add .
 	@git commit -m "test"
+	@git push
 
 
 codex:
