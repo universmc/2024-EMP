@@ -55,7 +55,7 @@ async function main() {
   //  {role: "system",name:"[📔.codex]", content:"`systemContent` genetation de la documention et traduction de la documentation en lang:Fr, Français:stp!"},
   //  {role: "system",name:"[🌌.systemDream]", content:"groq"},
     ],
-    model: "mixtral-8x7b-32768",
+    model: "gemma2-9b-it",
     temperature: 0.5,
     max_tokens: 2024,
     top_p: 1,

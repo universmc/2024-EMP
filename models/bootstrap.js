@@ -37,7 +37,7 @@ async function main() {
             }
         ],
         // The language model which will generate the completion.
-        model: "mixtral-8x7b-32768",
+        model: "gemma2-9b-it",
         //
         // Optional parameters
         
