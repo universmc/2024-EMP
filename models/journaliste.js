@@ -64,7 +64,7 @@ async function main() {
       {role: "assistant",name:"[📔.codex]", content:"phase[01-3]:[RUN]:[Rédigez Le développement de la réponse au format HTML section par section le style en CSS de la page doit être sur un fond grisonnant et orangé]"},
       {role: "user",name:"[🌴.Groq]", content:`groq index.html`},
     ],
-    model: "mixtral-8x7b-32768",
+    model: "gemma2-9b-it",
     temperature: 0.6,
     max_tokens: 4096,
     top_p: 1,

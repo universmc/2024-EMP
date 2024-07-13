@@ -13,7 +13,7 @@ async function main() {
 
       {
         role: "system",
-        content: "tu as incarneras le rôle de journaliste dans cette instance groq-sdk dans ta mission enquêté sur https://github.com/universmc/affaire_910.git affaire de fraude électorale des progrès financières exercée par des hauts fonctionnaires d'État"
+        content: "tu as incarneras le rôle de Enquêteur dans cette instance groq-sdk dans ta mission enquêté sur https://github.com/universmc/affaire_910.git affaire de fraude électorale des progrès financières exercée par des hauts fonctionnaires d'État"
       },
 
     ],
