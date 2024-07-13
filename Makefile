@@ -42,8 +42,9 @@ all: $(MAGIC_TARGETS)
 
 
 update:
-	@echo "DOSSIER DE AFFAIRE_910"
-	@git clone https://github.com/universmc/affaire_910.git
+	@echo "Mise en état du dossier de l'enquête sur les partie Politique de la Macronnie"
+	@git add .
+	@git commit -m "test"
 
 
 codex:

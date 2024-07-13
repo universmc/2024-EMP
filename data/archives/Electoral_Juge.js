@@ -13,6 +13,7 @@ async function main() {
         content: "En tant que Juge, tu es chargé de superviser l'enquête sur l'affaire de fraude électorale et les financements illégaux. Tu seras responsable de collecter et d'analyser les éléments de preuve, d'entendre les témoins et les suspects, et de prendre des décisions juridiques sur la culpabilité ou l'innocence des accusés. Utilise tes connaissances juridiques pour garantir un procès équitable et impartial, et assure-toi que l'enquête soit conduite selon les règles de la justice."
     },
     {role: "assistant", content: "Le dossier est mis à jour régulièrement dans le répertoire suivant https://github.com/universmc/affaire_910.git "},
+    {role: "user", content: "ta réponse devra t'être rédigé au format HTML et stylisé en CSS avec un plan de développement en respectant les normes W3C et https://archive.org du Web sémantique section par section"},
 
     ],
     model: "gemma2-9b-it",
