@@ -47,24 +47,23 @@ update:
 	@git commit -m "test"
 	@git push
 
+mand:
+	@echo "création d'une instance dans le cadre de la procédure d'enquête"
+	@node MandatoryAi_bot.js
 
-codex:
-	@echo "Quantum Universe reveal a story to be told"
-	@node data/welcom-umc.js
-
-build: buildHtml buildCss buildJS buildJson
+build: gen ctf srv
 # Fabrication de la magie
-buildHtml:
-	@echo "Crafting web's fabric with quantum threads so bold"
-	@node models/worksJS-html.js
+gen:
+	@echo "création de la documentation"
+	@node generate.js
 
-buildCss:
-	@echo "Shaping beauty with qubits in every fold"
-	@node models/modelcss.js
+ctf:
+	@echo "** [GEN]:run Capture the Flag -CTF_ ** :"
+	@node CTF.js
 
-buildJS:
-	@echo "Weaving the logic with quantum entanglements we behold"@node javascript.js
-	@node "data/knowledge.js"
+srv:
+	@echo "démarrage du serveur MandaroryAi_bot"
+	@node "MandatoryAi_bot.js"
 
 buildJson:
 	@echo "Encoding knowledge in cosmic structures, truths to uphold"

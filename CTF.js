@@ -72,7 +72,7 @@ async function main() {
     stream: false
 }).then((chatCompletion)=>{
     const mdContent = chatCompletion.choices[0]?.message?.content;
-    const outputFilePath = "CTF_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
+    const outputFilePath = "src/md/CTF_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
     fs.writeFileSync(outputFilePath, mdContent);
     console.log("Capture the flag Documentation généré " + outputFilePath);
 });

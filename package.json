@@ -4,12 +4,33 @@
   "description": "enquête approfondie sur un scandale politique au financier 2008 à 2025, rappart 49-3 en recidive illégale",
   "main": "main.js",
   "directories": {
-    "doc": "docs"
+    "docs": "docs",
+    "build": "build",
+    "data": "data",
+    "src": "src",
+    "models": "models"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "style": "sass --watch/sass/bootstrap.scss src/css/style1/css"
+    "groq": "node groq-min.js",
+    "saas": "sass --watch src/sass/style.scss src/css/style.css"
+  },
+  "Mistral": {
+      "model":"mixtral-8x7b-32768",
+      "temperature":0.5,
+      "max_tokens":"4096",
+      "top_p":"1",
+      "stream":"True",
+      "stop":"None"
+  },
+  "llma": {
+      "model":"llama3-8b-8192",
+      "temperature":0.5,
+      "max_tokens":"4096",
+      "top_p":"1",
+      "stream":"True",
+      "stop":"None"
   },
   "keywords": [],
   "author": "",
