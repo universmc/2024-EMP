@@ -1,4 +1,47 @@
 # affaire_910
+## Affaire 910: Enquête Parlementaire
+
+Ce répertoire contient les éléments relatifs à une enquête parlementaire portant sur des suspicions de fraude électorale et d'escroquerie à la finance. 
+
+**Contexte:**
+
+ Des indications laissent penser à une manipulation des résultats électoraux et à un détournement de fonds destiné à des actions politiques frauduleuses. Une commission d'enquête parlementaire a été mise en place pour enquêter sur ces allégations, recueillir des preuves et apporter des conclusions objectives.
+
+**Objectifs de l'Enquête:**
+
+1. **Identifier les individus et les organisations impliqués** dans la fraude électorale et l'escroquerie financière.
+2. **Mettre en lumière les méthodes utilisées** pour manipuler les résultats électoraux et détourner les fonds.
+3. **Recueillir des preuves tangibles** pour étayer les conclusions de l'enquête.
+4. **Etablir les responsabilités** et formuler des recommandations pour prévenir de tels incidents à l'avenir.
+
+**Procédure Enquête:** 
+
+* **Recueil d'informations:** 
+    * Analyse des données provenant de diverses sources (bases de données électorales, comptes bancaires, communications électroniques, etc.).
+    * Entretiens avec des témoins et des experts.
+* **Exploitation des Failles:** 
+    * Identification des points faibles dans les systèmes informatiques ou les processus visant à identifier les failles dans les systèmes informatiques des suspects.
+* **Capture du Flag:** 
+    * Conglomérat des preuves pour constituer un dossier solide et accablant.
+
+**Principes Éthiques:**
+
+ L'enquête sera menée de manière impartiale, objective et respectueuse des droits fondamentaux de chacun. Les informations recueillies seront traitées de manière confidentielle et utilisées uniquement dans le cadre de l'enquête.
+
+*  
+
+**Accès et Responsabilités:**
+
+* Chaque participant à l'enquête aura un rôle et des responsabilités spécifiques (Voir le fichier "roles.md" pour plus de détails).
+* Les résultats et les conclusions de l'enquête seront rendus publics de manière transparente.
+
+**Communiqués :**
+Ce README sera régulièrement mis à jour avec des informations clés sur l'avancement de l'enquête.
+
+ **Note:** L'analyse du répertoire git et l'identification du serveur Telegram se dérouleront simultanément et seront documentés dans le fichier "logs.txt". 
+
+
+ **"Let us bring the truth to light"**
 
 
 ## REAMDE

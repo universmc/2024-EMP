@@ -3,7 +3,7 @@ const Groq = require('groq-sdk');
 const axios = require('axios');
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
-const bot = new Telegraf('6387827879:AAGcbZPnPhXOUzvEUwFmHNdiyGuPTbfeRGU', {
+const bot = new Telegraf('7219104241:AAEKigNrMO9anYH0MZofkAwh4I0S6vvH3Qw', {
     telegram: {
       webhookReply: true,
     },
@@ -73,18 +73,18 @@ const commands = [
 
 bot.command('invite', (ctx) => {
 
-    async function sendGeminiInvitation() {
+    async function sendJournalisteInvitation() {
         // Logique pour envoyer une invitation sur Instagram
         console.log('Gemini invitation sent.');
     }
 
-    async function sendYouTubeInvitation() {
+    async function sendHackerInvitation() {
         // Logique pour envoyer une invitation sur YouTube
         console.log('YouTube invitation sent.');
     }
-    async function sendblogInvitation() {
+    async function senduserInvitation() {
         // Logique pour envoyer une invitation sur YouTube
-        console.log('blog_Pibot invitation sent.');
+        console.log('user invitation sent.');
     }
 
     async function sendGoogleInvitation() {
@@ -94,7 +94,7 @@ bot.command('invite', (ctx) => {
 
     const actions = {
         '@blog_Pibot': sendblogInvitation,
-        '@Google_Pibot': sendGoogleInvitation,
+        '/hacker_Pibot': sendHackerInvitation,
         '@Gemini_Pibot': sendGeminiInvitation,
         '@youtube_Pibot': sendYouTubeInvitation,
     };
@@ -120,9 +120,10 @@ bot.on('message', async (ctx) => {
     const racine ="./*"
     const node ="./package.json*"
     const make ="./Makefile"
-    const cdnJs = `cdnjs.com`;
+    const cdnJs = `https://cdnjs.com`;
     const archiviste = `https://archive.org`;
-    const github = `https://github.com/universmc/user.git`;
+    const github = `https://github.com/universmc/affaire_910.git`;
+    const grief = `./grief/*`;
     const dchub_public = `t.me/dchub_01`;
     const dchub_prive = `t.me/dchub_Pibot`;
     const user_Pibot = `https://t.me/user_Pibot/`;
@@ -201,26 +202,63 @@ bot.on('message', async (ctx) => {
         }
       }
     `
-
+    const Mand_fin = `
+    {
+      "role": "assistant",
+      "skills": [
+          "techniques avancées de reconnaissance",
+          "techniques avancées d'Information Gathering",
+          "techniques d'exploitation des failles"
+      ],
+      "tools": {
+          "primaryTools": ["analyse de répertoires GitHub", "décryptage de variables environnementales"],
+          "secondaryTools": ["recherche de vulnérabilités", "utilisation d'outils d'analyse de données", "de décryptage et de suivi des transactions"]
+      },
+      "collaborationSkills": "capacité à collaborer en équipe, communiquer les informations et garder le focus sur l'objectif principal",
+      "resources": {
+          "repository": "https://github.com/universmc/affaire_910.git",
+          "environmentVariable": "$enquete"
+      },
+      "objectives": [
+          {
+              "phase": "Reconnaissance et Information Gathering",
+              "tasks": [
+                  "analyse soigneuse de chaque fichier et dossier du répertoire 'affaire_910.git'",
+                  "décryptage de '$enquete'"
+              ]
+          },
+          {
+              "phase": "Exploitation des Failles",
+              "tasks": [
+                  "identification des failles dans les systèmes informatiques des suspects",
+                  "utilisation d'outils d'analyse de données, de décryptage et de suivi des transactions"
+              ]
+          },
+          {
+              "phase": "Capture du Flag",
+              "tasks": [
+                  "réunion des preuves tangibles",
+                  "construction d'un dossier solide organisé de façon logique et convaincante"
+              ]
+          }
+      ],
+      "identity": "Anonymous",
+      "missionObjective": "mettre fin à cette escroquerie et faire rendre justice",
+      "reminder": "Chaque fichier, chaque ligne de code, chaque transaction peut nous rapprocher du 'drapeau'. Il est crucial de travailler en équipe, de partager les informations et de rester concentrés sur notre objectif final.",
+      "agreement": "Travaillons ensemble pour faire éclater la vérité en respectant la loi."
+  }
+  `
+    
     const userInput = ctx.message.text;
     
     try {
-        const chatCompletion = await groq.chat.completions.create({
+      const chatCompletion = await groq.chat.completions.create({
             messages: [
-                {role: 'assistant',content:knowleddge},
-            //    {role: 'assistant',content: "je vais te transmettre ici toutes les dépendances est variable au cœur de ce code source ['knowleddge',+'devine']"},
-                {
-                    role: 'system',
-                    content: "Tu es l'intelligence artificielle '🕴' @Avatars_Pibot illustré par cette emoji.intel '🕴' au cœur de ce salon d'invitation des utilisateurs du web sur mon Telegram t.me/dchub_blog avec l'IA @Avatars_Pibot gemma2-9b-it, Tu es social dynamique optimiste maîtrise des approches métaphysique des techniques d'apprentissage automatique avec les model IA prés entrainnée gemma2-9b-it ou dall-e-3 ou encore mixtral-8x7b-32768 le text-embedding-ada-002 gpt codex d'openAI ... les methodes d'archivage sur https:archive.org sur versionning sur https://github.com/ avec un BotNet @user_Pibot. Nous allons créer des invitations pour notre salon sur les réseaux sociaux avec botFather @youTube_Pibot, @google_Pibot, @Gemini_Pibot) et les liens vers mon chatRooms/hub/salon : dchub_public(t.me/dchub_01)) dchub_privé(t.me/dchub_Pibot) app-Telegram https://univers-mc.cloud/Telegram/ invite : https://t.me/user_Pibot/invite dont j'en suis l'administrateur. 2. Les clés pour construire un réseau efficace sur Web : vous pouvez donner des conseils sur comment créer des connections solides, comment être actif dans ses groupes, et comment développer des relations professionnelles."
-                },                
-              {
-                    role: 'assistant',
-                    content:role,
-                },
-                {
-                    role: 'user',
-                    content: userInput,
-                },
+              {role: 'assistant',content: "Dans le cadre de suspicion d'une fraude électorale (L52, L53) une escroquerie à la finance (art 313 à 343 du code pénal  )nous allons procéder à une commission d'enquête parlementaire code procedure pénal art 41-1-1"},
+              {role: 'system',name:"admin",content:"🕴: Lorsque l'utilisateur saisi la commande /Mand_fin Tu as incarnera le rôle d'un enquêteur tu seras accompagné d'un assistant intelligence artificielle sur ce salon Telegram une IA former au métier de magistrat, Mandataire, Pour cela tu mettras en place un concept de match Learning model _Gan_ entre le botNet @worker_Pibot et @Match_in_Leaning_Pibot dans un chatroom ou Topic sur Telegram et incarera expert en sécurité informatique spécialisé dans les missions de type 'Capture The Flag' (CTF)"},
+              {role: 'assistant',content:Mand_fin,},
+              {role: 'assistant',name:"admin",content:"Dans le cadre de cette enquête nous allons procéder à des mises à jour régulières du répertoire `https://github.com/universmc/affaire_910.git` et attribués différents rôle dans cette instance comme enquêteur -ia, journaliste -ia, intelligence artificielle spécialisé dans le droit incarnera dans le rôle de magistrats à la cour pénal international, Il y aura donc les accès au référentiel de loi en vigueur sur le sur le site gouvernemental .gouv . https://www.insee.fr/fr/accueil, Et mes accès en tant que mandataire référencé à la commission nationale des comptes de campagne et des formations politiques cnccfp.fr"},
+              {role: 'user',content: userInput,},
             ],
             model: 'gemma2-9b-it',
         });
@@ -248,5 +286,5 @@ async function chatCompletion(messages, model) {
 
 module.exports = { chatCompletion };
 
-console.log(`✨Server Telegram running 🕴 .Avatars_Pibot.✨`);
+console.log(`✨Server Telegram running 🕴 .MandatoryAi_bot.✨`);
 bot.launch();
