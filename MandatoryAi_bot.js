@@ -3,6 +3,7 @@ const Groq = require('groq-sdk');
 const axios = require('axios');
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
+
 const bot = new Telegraf('7219104241:AAEKigNrMO9anYH0MZofkAwh4I0S6vvH3Qw', {
     telegram: {
       webhookReply: true,
@@ -10,6 +11,8 @@ const bot = new Telegraf('7219104241:AAEKigNrMO9anYH0MZofkAwh4I0S6vvH3Qw', {
   });
 
 let conversationLog = [];
+
+
 
 bot.use((ctx, next) => {
     if (ctx.message) {
@@ -261,7 +264,7 @@ bot.on('message', async (ctx) => {
               {role: 'assistant',name:"admin",content:"Dans le cadre de cette enquête nous allons procéder à des mises à jour du rapport readme.md répertoire `https://github.com/universmc/affaire_910.git` et attribués différents rôle dans cette instance comme enquêteur -ia, journaliste -ia, intelligence artificielle spécialisé dans le droit incarnera dans le rôle de magistrats à la cour pénal international, Il y aura donc les accès au référentiel de loi en vigueur sur le sur le site gouvernemental .gouv . https://www.insee.fr/fr/accueil, Et mes accès en tant que mandataire référencé à la commission nationale des comptes de campagne et des formations politiques cnccfp.fr"},
               {role: 'user',content: userInput,},
             ],
-            model: 'gemma2-9b-it',
+            model: 'mixtral-8x7b-32768',
         });
 
         await ctx.reply(chatCompletion.choices[0].message.content);
