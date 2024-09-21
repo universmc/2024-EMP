@@ -4,17 +4,33 @@ const axios = require('axios');
 const Groq = require('groq-sdk');
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
-const subject = process.argv[2] || 'HowTo_react'; //  Obtenir le sujet via l'argument de ligne de commande
+const chronique = process.argv[2] || 'Chronique_politique'; //  Obtenir le sujet via l'argument de ligne de commande
+
+const ressource = {
+  "theme": "Décryptage des métadonnées géopolitiques et actualités quotidiennes",
+  "duration": "14 minutes",
+  "description": "Cette chronique quotidienne explore les faits d'actualité liés à la géopolitique, l'économie et la politique intérieure en France. Elle analyse les données issues de sources officielles et de médias fiables tels que BFM, INSEE, CNCCFP, Euronews, et gouv.fr. Le but de cette écriture radiophonique est de générer un flux de métadonnées synchronisées avec une fréquence accordée de 432,14 Hz, et de produire un texte pour la chronique politique, qui sera régulièrement mis à jour sur GitHub via le script script-pilote.js.",
+  "radioShow": "Chronique politique quotidienne",
+  "informationSources": [
+  "BFM (https://www.bfmtv.com/)",
+  "INSEE (https://www.insee.fr/)",
+  "CNCCFP (https://www.cnccfp.fr/)",
+  "Euronews (https://fr.euronews.com/)",
+  "Gouvernement français (https://www.gouvernement.fr/)"
+  ],
+  "updateLocation": "Mise à jour quotidienne sur GitHub (https://github.com/universmc/Chronique_EMP)"
+  }
 
 function generateMarkdown(subject) {
   return `## Comment [${subject}] - Un guide étape par étape\n\n**Introduction**:\n\nCe guide vous aidera à comprendre et à réaliser [${subject}]. Il est conçu pour les débutants et les utilisateurs intermédiaires qui souhaitent apprendre les bases de [${subject}].\n\n${subject.description}\n\n**Prérequis**:\n\n* [Liste des prérequis nécessaires pour suivre ce guide, par exemple: une connexion internet, un compte sur une plateforme spécifique, etc.]\n\n**Étapes**:\n\n1. **[Étape 1]:**\n   * Décrivez en détail l'étape 1, incluant les instructions claires et concises.\n   * Utilisez des listes à puces ou des paragraphes pour améliorer la lisibilité.\n   * Ajoutez des images ou des captures d'écran pour illustrer les étapes si nécessaire.\n\n2. **[Étape 2]:**\n   * Décrivez en détail l'étape 2, incluant les instructions claires et concises.\n   * Utilisez des listes à puces ou des paragraphes pour améliorer la lisibilité.\n   * Ajoutez des images ou des captures d'écran pour illustrer les étapes si nécessaire.\n\n3. **[Étape 3]:**\n   * Décrivez en détail l'étape 3, incluant les instructions claires et concises.\n   * Utilisez des listes à puces ou des paragraphes pour améliorer la lisibilité.\n   * Ajoutez des images ou des captures d'écran pour illustrer les étapes si nécessaire.\n\n**Conseils:**\n\n* [Ajoutez des conseils utiles pour réaliser [${subject}] avec succès.]\n\n**Ressources supplémentaires:**\n\n* [Listez des liens vers des ressources supplémentaires, telles que des tutoriels, des articles de blog ou des forums, qui peuvent être utiles aux utilisateurs.]`;
 }
 
-const subjects = [
-  "how-to-build_react.composant_bouton",
-  //"how-to-build_react.composant_navBar",
-  //"how-to-build_react.composant_modale-overlay",
-  //"how-to-build_react.composant_modale-aside",
+const chroniques = [
+  "Gillet_Jaune_Rérérendum_initiative_citoyenne",
+  "Economie_et-Croissance_en_Macronie",
+  "Election_Européen_2024_EMP",
+  "suspicions_de_fraude_electoral_compte_de_campagne_preuve_cnccfp.fr",
+  "suspicions_de_ecroquerie_à_la_fiancement_fonctionnaire_et_macronniqte",
   //"how-to-build_react.composant_formulaire",
   //"how-to-build_react.composant_Carrousel",
   //"how-to-build_react.composant_Card",
@@ -22,13 +38,15 @@ const subjects = [
 ];
 
 async function main() {
-  for (const subject of subjects) {
+  for (const chronique of chroniques) {
     try {
       const completion = await groq.chat.completions.create({
       messages: [
         //{role: "system", content:"Phase 0: initialisation"},
-        { role: "user", content: `${subject}`  },
-         {role: "system", content:"Imaginez un system Howto avec React dynamique intégré d'un assistant IA, Un guide étape par étape\n\n**Introduction**:\n\nCe guide vous aidera à comprendre et à réaliser [${subject}]. Il est conçu pour les débutants et les utilisateurs intermédiaires qui souhaitent apprendre les bases de [${subject}].\n\n${subject.description}\n\n**Prérequis**:\n\n* [Liste des prérequis nécessaires pour suivre ce guide, par exemple: une connexion internet, un compte sur une plateforme spécifique, etc.]\n\n**Étapes**:\n\n1. **[Étape 1]:**\n   * Décrivez en détail l'étape 1, incluant les instructions claires et concises.\n   * Utilisez des listes à puces ou des paragraphes pour améliorer la lisibilité.\n   * Ajoutez des images ou des captures d'écran pour illustrer les étapes si nécessaire.\n\n2. **[Étape 2]:**\n   * Décrivez en détail l'étape 2, incluant les instructions claires et concises.\n   * Utilisez des listes à puces ou des paragraphes pour améliorer la lisibilité.\n   * Ajoutez des images ou des captures d'écran pour illustrer les étapes si nécessaire.\n\n3. **[Étape 3]:**\n   * Décrivez en détail l'étape 3, incluant les instructions claires et concises.\n   * Utilisez des listes à puces ou des paragraphes pour améliorer la lisibilité.\n   * Ajoutez des images ou des captures d'écran pour illustrer les étapes si nécessaire.\n\n**Conseils:**\n\n* [Ajoutez des conseils utiles pour réaliser [${subject}] avec succès.]\n\n**Ressources supplémentaires:**\n\n* [Listez des liens vers des ressources supplémentaires, telles que des tutoriels, des articles de blog ou des forums, qui peuvent être utiles aux utilisateurs.]"},
+        { role: "user", content: "Bienvenue à notre chronique politique quotidienne en date du vendredi 23 août 2024, sous le régime de la Macronnie."},
+        { role: "user", content: `${chronique}`},
+        { role: "user", content: `${ressource}`},
+         {role: "system", content:"Imaginé une chronique de 14 minutes qui explorera les faits d'actualité liés à la géopolitique, l'économie et la politique intérieure en France, tout en analysant les données issues de sources officielles et de médias fiables tels que BFM, INSEE, CNCCFP, Euronews, et gouv.fr. Le but de cette écriture radiophonique est de générer un flux de métadonnées synchronisées avec une fréquence accordée de 432,14 Hz, et de produire un texte pour la chronique politique, qui sera régulièrement mis à jour sur GitHub via le script script-pilote.js..]"},
       //  {role: 'assistant',content:"Lorsque j'exécute la commande /Rsync, je coordonne l'intelligence collective de notre réseau neuronal de bots, accélérant et optimisant la communication entre eux pour une meilleure efficacité de tâches. Notre synergie entre ('@blog_Pibot' et @Match_in_Learning_Pibot),('@Pi-ia_Pibot', '@Avatars_Pibot', '@meta_Pibot') et ('@worker_Pibot',@neoFs_Pibot') fonctionne comme une machine bien huilée pour améliorer l'expérience utilisateur sur Telegram en intégrant les processus de génération de contenu, d'analyse de questions, de recherche de ressources et d'administration de groupes"},
       //  {role: 'assistant',content:"Lorsque j'exécute la commande /dev, je coordonne l'intelligence collective de notre réseau neuronal de bots _Pibot accélérant et optimisant rôle et context favorisant la communication entre eux pour une meilleure efficacité de tâches. Notre synergie entre ('@blog_Pibot' et @Match_in_Learning_Pibot),('@Pi-ia_Pibot', '@Avatars_Pibot', '@meta_Pibot') et ('@worker_Pibot',@neoFs_Pibot') fonctionne comme une machine bien huilée pour améliorer l'expérience utilisateur sur Telegram en intégrant les processus de génération de contenu, d'analyse de questions, de recherche de ressources et d'administration de groupes"},
       //      {role: "assistant",content: `roleDescription = {
@@ -81,9 +99,9 @@ async function main() {
       max_tokens: 4096,
     }).then((chatCompletion) => {
       const mdContent = chatCompletion.choices[0]?.message?.content;
-      const outputFilePath = `build/how-to_${subject}_` + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
+      const outputFilePath = `build/Chronique_${chronique}_` + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
 fs.writeFileSync(outputFilePath, mdContent);
-      console.log(`Le How-To sur ${subject} a été enregistrée sur github dans ${outputFilePath}`);       
+      console.log(`Le How-To sur ${chronique} a été enregistrée sur github dans ${outputFilePath}`);       
     });
   } catch (error) {
     console.error("Une erreur s'est produite :", error);
