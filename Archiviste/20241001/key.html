@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suivi Satellite en Temps Réel</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Suivi en Temps Réel du Satellite CHANDRA (NORAD_ID 25867)</h1>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Initialiser la carte
+        var map = L.map('map').setView([29.5814, 79.9008], 2); // Coordonnées de départ approximatives
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Données initiales du satellite
+        const satellite = {
+            name: "CHANDRA",
+            norad_id: 25867,
+            mass: 4790, // en kg
+            altitude: 124852, // en km
+            diameter: 1.2, // en mètres
+            period: { hours: 63, minutes: 47 }, // Période orbitale
+            latitude: 29.5814,
+            longitude: 79.9008,
+            azimuth: 76.1958 // en degrés
+        };
+
+        // Fonction pour convertir l'azimut en radians
+        function toRadians(degrees) {
+            return degrees * (Math.PI / 180);
+        }
+
+        // Fonction pour ajuster la position du satellite en fonction de sa période et du temps écoulé
+        function ajusterPositionSatellite(temps) {
+            // Utiliser la trigonométrie pour simuler un mouvement orbital (simplification ici)
+            const vitesseAngulaire = 2 * Math.PI / (satellite.period.hours * 3600 + satellite.period.minutes * 60); // rad/s
+            const angle = vitesseAngulaire * temps; // angle en rad
+
+            // On calcule la nouvelle position (simplification avec mouvement circulaire)
+            satellite.latitude += 0.01 * Math.sin(angle);
+            satellite.longitude += 0.01 * Math.cos(angle);
+        }
+
+        // Fonction pour ajouter un marqueur satellite à la carte
+        function ajouterSatelliteSurCarte() {
+            // Effacer les anciens marqueurs (si nécessaire) avant d'en ajouter de nouveaux
+            if (window.satelliteMarker) {
+                map.removeLayer(window.satelliteMarker);
+            }
+
+            // Ajouter un marqueur avec les nouvelles coordonnées du satellite
+            window.satelliteMarker = L.marker([satellite.latitude, satellite.longitude]).addTo(map)
+                .bindPopup(`<b>${satellite.name}</b><br>Latitude: ${satellite.latitude.toFixed(6)}<br>Longitude: ${satellite.longitude.toFixed(6)}`)
+                .openPopup();
+        }
+
+        // Fonction pour mettre à jour la position toutes les X secondes
+        function miseAJourPosition() {
+            const now = Date.now() / 1000; // Temps écoulé en secondes
+            ajusterPositionSatellite(now); // Ajuster la position du satellite en fonction du temps écoulé
+            ajouterSatelliteSurCarte(); // Afficher la nouvelle position sur la carte
+        }
+
+        // Mettre à jour la position toutes les 10 secondes
+        setInterval(miseAJourPosition, 10000);
+    </script>
+</body>
+</html>

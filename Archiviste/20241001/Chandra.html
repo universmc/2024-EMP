@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suivi du Satellite en Temps Réel</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Suivi en temps réel du satellite CHANDRA (ID: 25867)</h1>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Initialiser la carte
+        var map = L.map('map').setView([0, 0], 2); // Coordonnées de départ (équateur)
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Variables initiales pour le satellite CHANDRA
+        var satellite = {
+            name: "CHANDRA",
+            norad_ID: 25867,
+            lat: 0, // Latitude initiale (ajuster avec les vraies données)
+            lon: 0, // Longitude initiale (ajuster avec les vraies données)
+            altitude: 124852, // Altitude en km
+            azimut: 45, // Exemple d'azimut (en degrés)
+            vitesse: 7.8 // Vitesse orbitale approximative en km/s (ajuster selon l'orbite)
+        };
+
+        // Fonction pour calculer la nouvelle position en fonction du temps
+        function miseAJourPosition() {
+            var temps = Date.now() / 1000; // Temps en secondes
+
+            // Simulation de la mise à jour de la latitude, longitude et altitude (orbite simplifiée)
+            var deltaTemps = 30; // Changement en secondes (30 secondes d'intervalle)
+            satellite.lat += (Math.sin(temps / deltaTemps) * 0.01); // Changement en latitude (simulation)
+            satellite.lon += (Math.cos(temps / deltaTemps) * 0.01); // Changement en longitude (simulation)
+            satellite.altitude -= (Math.sin(temps / deltaTemps) * 0.1); // Altitude variable
+
+            // Mise à jour du marqueur du satellite sur la carte
+            if (typeof satellite.marker === 'undefined') {
+                satellite.marker = L.marker([satellite.lat, satellite.lon]).addTo(map);
+            } else {
+                satellite.marker.setLatLng([satellite.lat, satellite.lon]);
+            }
+
+            satellite.marker.bindPopup(`
+                <b>Satellite: ${satellite.name}</b><br>
+                Norad ID: ${satellite.norad_ID}<br>
+                Latitude: ${satellite.lat.toFixed(6)}<br>
+                Longitude: ${satellite.lon.toFixed(6)}<br>
+                Altitude: ${satellite.altitude.toFixed(2)} km<br>
+                Azimut: ${satellite.azimut}°<br>
+                Vitesse orbitale: ${satellite.vitesse} km/s
+            `).openPopup();
+        }
+
+        // Mise à jour de la position du satellite toutes les 5 secondes
+        setInterval(miseAJourPosition, 5000);
+    </script>
+</body>
+</html>
