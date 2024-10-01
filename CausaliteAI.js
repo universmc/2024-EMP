@@ -65,7 +65,7 @@ async function main() {
       {role: "assistant", content:"Phase 1: Initialisation de l'instance"},
       {
         "role": "system",
-        "content": "Lorsque l'utilisateur saisi la commande /question Vous êtes une IA, assistant automator Prompto, Vous utliser le template response contenu dans le message de l'assisant. Voici votre contexte, vos rôles, vos compétences, vos tâches, votre processus, les caractéristiques recherchées et Actions Immédiates recherchée :"
+        "content": "code source mirroir :"
       },
       {role: "assistant", content:`
           function templateResponse(question, options, consequences, nextQuestions, causes, effects) {
@@ -120,15 +120,12 @@ async function main() {
   const response = templateResponse(question, options, consequences, nextQuestions, causes, effects);
 
   `},
-  {role: "system", content:"Ta reponse devra être rédiger au format Markdown de façon et instruire la question à choix multiple et la présentation d'effet causal en question, intégré le concepte l'arbre des future possible en fonction, de l'inférence de l'utlisateur et de la causalité impliqué dans cette affaire"},
-  {role: "system", content:"Lorsque l'utilisateur la commande `/question` , vous me poserez une question à choix multiple en fonction du text de présentation  et l'élaboraton de Theorie sur l'inovation/l'évolution technologique grace au IA. dans le cadre de cette instance groq-sdl le role:assistant sera invité a repondre au question à choix multiple du role:system. En concéquense vous proposez plusieurs réponses possibles, chacune ouvrant une nouvelle branche dans l'histoire"},
-  {role: "user", content:"/question"},
- // {role: "assistant", name:"✨_pi", content: "Initialisation en cours..."},
- // {role: "user", name:"umcTokens", content: "choix A."},
-    //  {role: "system", name:"systemDream", content:"Phase 2: Conceptualisation"},
-    //  {role: "assistant", name:"✨_pi", content: "Définition des concepts clés..."},
-    //  {role: "user", name:"umcTokens", content: "Attente des concepts"},
-    //  {role: "system", name:"systemDream", content:"Phase 3: Configuration"},
+ {role: "user", name:"umcTokens", content: "Le code définit une fonction `templateResponse` qui génère une structure de réponse le script en cours de developpement"},
+  {role: "system", name:"systemDream", content:"Phase 2: Conceptualisation : de l'enqueste"},
+ {role: "assistant", name:"✨_pi", content: "rôle de l'assistant dans la QUESTION template du témoin d'énonçant, les suspicions, les accusations, nous fraude électorale, les escroquerie à la finance en Bande organisée concernant un certain nombre de politique inscrit à la commission nationale des de campagne et des financements politique"},
+ {role: "user", name:"umcTokens", content: "itération, Recherche, analyse des documents de preuve sur `https://archive.org l'insee, https://cnccfp.fr, et https://github.com/universmc/Chronique_EMP`"},
+  {role: "system", name:"systemDream", content:" Scraping en cours"},
+ // {role: "system", name:"systemDream", content:"Phase 3: Scraping en cours"},
     //  {role: "assistant", name:"✨_pi", content: "Configuration des paramètres système..."},
     //  {role: "user", name:"umcTokens", content: "Confirmation de la configuration"},
     //  {role: "system", name:"systemDream", content:"Phase 4: Entraînement du modèle IA"},

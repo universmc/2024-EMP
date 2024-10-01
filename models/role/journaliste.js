@@ -1,7 +1,7 @@
 const fs = require("fs");
 const Groq = require("groq-sdk");
 const groq = new Groq();
-const constitution68 = require("../package.json")
+const constitution68 = require("../../package.json")
 
 
 
