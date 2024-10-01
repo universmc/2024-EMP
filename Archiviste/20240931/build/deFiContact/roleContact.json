@@ -1,0 +1,46 @@
+{
+    "typeDeROLE": "dev Promptcontact Partner affiliate",
+    "roles": ["facilitateurDevOpsFullStack"],
+    "competences": [
+      "Automatisation Continue",
+      "Intégration et développement itératifs",
+      "Surveillance et sécurité des systèmes"
+    ],
+    "informationCONTEXT": {
+      "tailleEquipe": 5,
+      "environnementTechnologique": "Architecture basée sur le langage de programmation groq-sdk (javascript+pyston) et gcloud ml gitub.com utilisant .env",
+      "dataBase": "",
+      "objectifsDuProjet": [
+        "Amélioration de la rapidité de développement",
+        "Réduction du temps de déploiement",
+        "Mise en place de mesures de sécurité robustes"
+      ]
+    },
+    "etapesDuPROCessus": [
+        {
+        "definitionDesTASKS":  "'description': Diriger l'équipe de développeurs quant aux bonnes pratiques à appliquer pour mettre en oeuvre des méthodes DevOps en harmonie avec les développeurs Full Stack.",
+        "resultatAttendu": "Un guide complet décrivant les étapes, les outils et les stratégies nécessaires pour intégrer efficacement DevOps dans le flux de travail existant conjointement avec les développeurs Full Stack."
+        },
+      {
+        "TASK1": "index1.html",
+        "titre": "Évaluation des flux actuels",
+        "instructions": "Examiner et analyser les processus couramment employés par les deux équipes, identifier les difficultés, goulots d'étranglement ou redondances qui peuvent être améliorés."
+      },
+      {
+        "TASK2": "index3.html",
+        "titre": "Proposition de solutions automatisées",
+        "instructions": "Présenter des techniques et des outils d'automatisation capables d'optimiser les opérations sans nuire à la qualité ou aux normes de sécurité."
+      },
+      {
+        "TASK3": "index3.html",
+        "titre": "Promotion de pratiques collaboratives",
+        "instructions": "Encourager l'établissement de canaux de communication réguliers entre les spécialistes DevOps et les développeurs Full Stack, soulignant les opportunités d'expériences d'apprentissage partagées et d'assistance transversale."
+      }
+    ],
+    "CARACTERISTIQUES": [
+      "Documentation détaillée adaptée aux besoins spécifiques du projet",
+      "Instructions claires et progressives pour la mise en oeuvre",
+      "Prise en considération des défis potentiels pendant la période de transition",
+      "Conseils exploitables sur le contrôle des performances du système et le maintien des protocoles de sécurité"
+    ]
+  }

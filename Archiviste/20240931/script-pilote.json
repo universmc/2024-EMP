@@ -1,0 +1,30 @@
+{
+    "acts": 
+    [
+    {
+    "number": 1,
+    "title": "La Situation",
+    "description": "La scène s'ouvre sur des images de manifestations réprimées violemment par les forces de l'ordre. Des travailleurs pauvres et des citoyens opprimés s'organisent pour demander des réformes et lutter contre les abus de pouvoir. Un parti politique, composé de présumés hauts fonctionnaires d'État, se mobilise pour porter leur voix et mettre en place des réformes radicales. Ils prévoient de prendre d'assaut l'Élysée, symbole du pouvoir, pour rendre justice aux citoyens opprimés."
+    },
+    {
+    "number": 2,
+    "title": "La Commission d'Enquête",
+    "description": "Les membres du parti politique lancent une commission d'enquête sur une affaire d'escroquerie à grande échelle, corruption de la justice et violations de procédures comptables. Ils rassemblent les preuves nécessaires, notamment des PV, des vidéos de répression lors des manifestations et des témoignages de victimes. Les membres du parti mettent en lumière les manipulations politiques, les abus de pouvoir et les violations du consentement démocratique."
+    },
+    {
+    "number": 3,
+    "title": "La Transformation de l'Élysée en Tribunal (CJR+CPI)",
+    "description": "Les membres du parti politique cherchent à faire entendre leur cause devant un tribunal impartial. Ils décident de transformer symboliquement l'Élysée en un tribunal de justice républicain. Des représentants de différentes professions juridiques sont présents, tels que des experts en comptabilité, des experts psychiatres, des juges des tutelles et des juges de liberté et de détention, hero de la magistratature, Procureur .La salle de l'Élysée est réaménagée pour accueillir le procès. La scène est éclairée par des lumières vives et des caméras sont installées pour enregistrer les événements."
+    },
+    {
+    "number": 4,
+    "title": "Le Jugement Contraire aux Prévenus Absents",
+    "description": "Malgré les convocations, les demandes d'entretiens et les pétitions pour une éventuelle procédure de destitution, les membres du parti politique refusent de comparaître devant le tribunal. Le jugement est donc rendu contradictoirement, en tenant compte des éléments de preuve et des plaidoiries présentés par les parties civiles. Les prévenus sont déclarés coupables éscroquerie à la finance en bande organisée art 313 à 341 du code pénal, répression armée article 431 à 461 du code pénal, trafic d'armes et crimes de guerre à l'international article 463 du code pénal. en conformité avec la Constitution et le Code pénal, et des voix de condamnation sont prononcées. Les membres du parti politique, présents dans la salle, se lèvent et applaudissent le verdict."
+    },
+    {
+    "number": 5,
+    "title": "De l'Élysée à la Prison",
+    "description": "Le tribunal prononce des peines à l'encontre des prévenus absents."
+    }
+    ]
+    }

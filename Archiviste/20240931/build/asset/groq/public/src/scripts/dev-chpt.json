@@ -1,0 +1,41 @@
+{
+    "chapitres": [
+    {
+    "titre": "Chapitre 1 : Très courte introduction",
+        "duree": 3,
+        "developpement": [
+            {
+            "tache": "Rédaction du script",
+            "role": "Humain"
+            },
+            {
+            "tache": "Suggestion d'améliorations",
+            "role": "IA"
+            }
+    ]
+    },
+    {
+    "titre": "Chapitre 2 : Exemple d'algorithme de base",
+        "duree": 19,
+        "developpement": [
+        {
+        "tache": "Conception de l'algorithme",
+        "role": "Humain"
+        },
+        {
+        "tache": "Analyse et suggestions d'optimisation",
+        "role": "IA"
+        },
+        {
+        "tache": "Implémentation de l'algorithme en JavaScript",
+        "role": "Humain"
+        },
+        {
+        "tache": "Vérification du code",
+        "role": "IA"
+        }
+    ]
+    }
+        ]
+    }
+    
