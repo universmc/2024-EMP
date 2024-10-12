@@ -13,7 +13,7 @@ async function main() {
     const codeElectoral = "les Article L52 & L53 Concerne L'usage des fonds public à des fins personnelles Et de corruption financière dans certains bulletins de vote (ballot.sol) lors de l'élection européenne du 9 juin 2024"
     const constitution = "Vue les usages abusif des 49 et 12 de la constitutions et nous faisons appel à 226 pour nous défendre devant une jutice social plus impartialle."
     const codePenal = `Code Pénal numéro 313 à 342 Concernant les escroquerie à la finance en bon organiser et la corruption financière évasion fiscale le blanchiment d'argent le détournement de fonds`
-    const composition = `"${constituion}+${escrowBoutique}+${constituion}+${constituion}+"`
+    const composition = `"${constituion}+${escrowBoutique}"`;
 
     let constituion = "dans le cadre d'une enquête parlementaire nous faisons requête à l'article 41-1-1 et au art 51 et 53 Code de procédure pénale afin de ne pas prononcer le nom de identité de vos fonctionnaires concernés ou un parti dans cette affaire afin de mettre en place Composition pénale complète une négociation de protection juridique et un placement en tutelle d'état"
 

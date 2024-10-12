@@ -1,0 +1,106 @@
+{
+    "chapitres": [
+      {
+        "titre": "Suspicions de fraude électorale",
+        "sections": [
+          {
+            "titre": "Code électoral et escroquerie",
+            "segments": [
+              {
+                "timestamp": "00:00:10",
+                "description": "Articles 52 et 53 du code électoral"
+              },
+              {
+                "timestamp": "00:01:30",
+                "description": "Articles 313 à 341 concernant l'escroquerie en bande organisée"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Concertations de répression",
+        "sections": [
+          {
+            "titre": "Répression financière",
+            "segments": [
+              {
+                "timestamp": "00:03:00",
+                "description": "Preuves de concertation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Usage abusif du pouvoir",
+        "sections": [
+          {
+            "titre": "Dissolution du parlement",
+            "segments": [
+              {
+                "timestamp": "00:04:20",
+                "description": "Exemples de dissolution abusives"
+              }
+            ]
+          },
+          {
+            "titre": "Passage en force",
+            "segments": [
+              {
+                "timestamp": "00:05:40",
+                "description": "Conséquences du passage en force"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Fraude électorale sous le gouvernement",
+        "sections": [
+          {
+            "titre": "Implication des partis politiques",
+            "segments": [
+              {
+                "timestamp": "00:07:10",
+                "description": "Rôle d'Horizons et de Renaissance"
+            }
+        ]
+        },
+        
+  {
+  "titre": "Abus de langage",
+  "segments": [
+  {
+  "timestamp": "00:08:30",
+  "description": "Exemples d'abus de langage pour manipulation"
+  }
+  ]
+  }
+  ]
+  },
+  {
+  "titre": "Médias sociaux et communication",
+  "sections": [
+  {
+  "titre": "Censure et contrôle de l'information",
+  "segments": [
+  {
+  "timestamp": "00:10:00",
+  "description": "Implication de la censure dans la fraude électorale"
+  }
+  ]
+  },
+  {
+  "titre": "Télégramme et plateformes alternatives",
+  "segments": [
+  {
+  "timestamp": "00:11:20",
+  "description": "Utilisation de Télégramme pour contourner la censure"
+  }
+  ]
+  }
+  ]
+  }
+  ]
+  }

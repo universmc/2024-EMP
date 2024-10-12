@@ -1,0 +1,20 @@
+Voici votre message formaté en JSON :
+
+```json
+{
+  "date": "08/10/2024",
+  "project": "Projet",
+  "Model_ia": "Model_ia",
+  "context": "Context",
+  "role": "Role",
+  "skills": "Skills",
+  "task": "Tasks",
+  "process": "Process",
+  "characteristics": "Characteristics",
+  "ImmediateActions": "ImmediateActions",
+  "feedbackPrediction": "feedbackPrediction",
+  "message": "   ╔════════════════════════════════════════╗\n  ║ ⭐️ Data Report - 08/10/2024 ⭐️         ║\n  ╟────────────────────────────────────────╢\n  ║ 📋 Project: Projet                    ║\n  ║ 📈 Model: Model_ia                     ║\n  ║ 🌐 Context: Context                    ║\n  ║ 💼 Role: Role                          ║\n  ║ 🚀 Skills: Skills                      ║\n  ║ 📋 Tasks: Tasks                         ║\n  ║ 🔄 Process: Process                    ║\n  ║ 🛠 Characteristics: Characteristics     ║\n  ║ ⚡️ Immediate Actions: ImmediateActions  ║\n  ║ 🔮 Feedback: feedbackPrediction         ║\n  ╚═════════════════════════════════════════╝"
+}
+```
+
+N'hésitez pas à me poser d'autres questions !

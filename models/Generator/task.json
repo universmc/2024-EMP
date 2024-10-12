@@ -1,0 +1,45 @@
+{
+    "tasks": [
+      {
+        "subject": "E-commerce",
+        "technologies": {
+          "frontend": "React",
+          "backend": "Node.js",
+          "api": "REST API",
+          "database": "MongoDB"
+        },
+        "endpoints": [
+          { "url": "/api/products", "method": "GET", "description": "Récupérer la liste des produits" },
+          { "url": "/api/products", "method": "POST", "description": "Ajouter un nouveau produit" },
+          { "url": "/api/cart", "method": "GET", "description": "Récupérer le panier" },
+          { "url": "/api/cart", "method": "POST", "description": "Ajouter un produit au panier" }
+        ],
+        "steps": [
+          "Générer les fichiers frontend avec React",
+          "Générer les routes et controllers backend",
+          "Implémenter l'API REST",
+          "Intégrer la base de données MongoDB"
+        ]
+      },
+      {
+        "subject": "Blog",
+        "technologies": {
+          "frontend": "Vue.js",
+          "backend": "PHP",
+          "api": "GraphQL",
+          "database": "MySQL"
+        },
+        "endpoints": [
+          { "url": "/api/posts", "method": "GET", "description": "Récupérer la liste des articles" },
+          { "url": "/api/posts", "method": "POST", "description": "Créer un nouvel article" }
+        ],
+        "steps": [
+          "Générer les fichiers frontend avec Vue.js",
+          "Générer les routes et controllers backend en PHP",
+          "Implémenter l'API GraphQL",
+          "Configurer la base de données MySQL"
+        ]
+      }
+    ]
+  }
+  

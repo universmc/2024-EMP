@@ -1,0 +1,18 @@
+{
+  "subject": "City_Game_&_Pixel_Art",
+  "database": "mysql",
+  "api_endpoints": [
+    {
+      "endpoint": "/api/City_Game_&_Pixel_Art/getData",
+      "method": "GET"
+    },
+    {
+      "endpoint": "/api/City_Game_&_Pixel_Art/postData",
+      "method": "POST"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2024-10-06T13:36:32.653Z"
+  }
+}

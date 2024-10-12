@@ -1,0 +1,122 @@
+Phase 2: Réception des données en temps réel
+
+{
+"date": "08/10/2024",
+"project": "Projet",
+"Model\_ia": "Model\_ia",
+"context": "Context",
+"role": "Role",
+"skills": "Skills",
+"task": "Tasks",
+"process": "Process",
+"characteristics": "Characteristics",
+"ImmediateActions": "ImmediateActions",
+"feedbackPrediction": "feedbackPrediction",
+"realTimeData": {
+"newData": {
+"data1": "value1",
+"data2": "value2",
+"data3": "value3"
+},
+"timestamp": "2024-10-08T14:30:00Z"
+}
+}
+
+Phase 3: Traitement et analyse des données
+
+{
+"date": "08/10/2024",
+"project": "Projet",
+"Model\_ia": "Model\_ia",
+"context": "Context",
+"role": "Role",
+"skills": "Skills",
+"task": "Tasks",
+"process": "Process",
+"characteristics": "Characteristics",
+"ImmediateActions": "ImmediateActions",
+"feedbackPrediction": "feedbackPrediction",
+"realTimeData": {
+"newData": {
+"data1": "value1",
+"data2": "value2",
+"data3": "value3"
+},
+"timestamp": "2024-10-08T14:30:00Z"
+},
+"dataAnalysis": {
+"data1": "analyzedValue1",
+"data2": "analyzedValue2",
+"data3": "analyzedValue3"
+},
+"analysisTimestamp": "2024-10-08T14:31:00Z"
+}
+
+Phase 4: Prise de décision et actions immédiates
+
+{
+"date": "08/10/2024",
+"project": "Projet",
+"Model\_ia": "Model\_ia",
+"context": "Context",
+"role": "Role",
+"skills": "Skills",
+"task": "Tasks",
+"process": "Process",
+"characteristics": "Characteristics",
+"ImmediateActions": {
+"action1": "description1",
+"action2": "description2",
+"action3": "description3"
+},
+"feedbackPrediction": "feedbackPrediction",
+"realTimeData": {
+"newData": {
+"data1": "value1",
+"data2": "value2",
+"data3": "value3"
+},
+"timestamp": "2024-10-08T14:30:00Z"
+},
+"dataAnalysis": {
+"data1": "analyzedValue1",
+"data2": "analyzedValue2",
+"data3": "analyzedValue3"
+},
+"analysisTimestamp": "2024-10-08T14:31:00Z"
+}
+
+Phase 5: Mise à jour du rapport de données
+
+{
+"date": "08/10/2024",
+"project": "Projet",
+"Model\_ia": "Model\_ia",
+"context": "Context",
+"role": "Role",
+"skills": "Skills",
+"task": "Tasks",
+"process": "Process",
+"characteristics": "Characteristics",
+"ImmediateActions": {
+"action1": "description1",
+"action2": "description2",
+"action3": "description3"
+},
+"feedbackPrediction": "feedbackPrediction",
+"realTimeData": {
+"newData": {
+"data1": "value1",
+"data2": "value2",
+"data3": "value3"
+},
+"timestamp": "2024-10-08T14:30:00Z"
+},
+"dataAnalysis": {
+"data1": "analyzedValue1",
+"data2": "analyzedValue2",
+"data3": "analyzedValue3"
+},
+"analysisTimestamp": "2024-10-08T14:31:00Z",
+"message": "Mise à jour du rapport de données avec les nouvelles actions et analyses\n  ╔═════════════════════════════════════════╗\n  ║ ⭐️ Data Report - 08/10/2024 ⭐️           ║\n  ╟─────────────────────────────────────────╢\n  ║ 📋 Project: Projet                ║\n  ║ 📈 Model: Model\_ia                  ║\n  ║ 🌐 Context: Context                 ║\n  ║ 💼 Role: Role                       ║\n  ║ 🚀 Skills: Skills                   ║\n  ║ 📋 Tasks: Tasks                      ║\n  ║ 🔄 Process: Process                 ║\n  ║ 🛠 Characteristics: Characteristics ║\n  ║ ⚡️ Immediate Actions: ImmediateActions ║\n  ║ 🔮 Feedback: feedbackPrediction     ║\n  ║ 📊 Data Analysis: DataAnalysis        ║\n  ║ ⏰ Analysis Timestamp: analysisTimestamp║\n  ╚═════════════════════════════════════════╝\n  "
+}

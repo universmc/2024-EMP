@@ -6,7 +6,13 @@ const manifestData = [
   { ville: "Lyon", nombre: 8000 },
   { ville: "Marseille", nombre: 5000 },
   { ville: "Toulouse", nombre: 4000 },
-  { ville: "Bordeaux", nombre: 3500 }
+  { ville: "Bordeaux", nombre: 3500 },
+  { ville: "Grenoble", nombre: 4000 },
+  { ville: "Renne", nombre: 3000 },
+  { ville: "Caen", nombre: 2000 },
+  { ville: "Lannion", nombre: 400 },
+  { ville: "Vannes", nombre: 300 },
+  { ville: "Molaix", nombre: 300 }
   // Tu peux ajouter plus de villes et leurs nombres de manifestants ici
 ];
 

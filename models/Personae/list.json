@@ -1,0 +1,34 @@
+[
+    {
+        "nom": "Jean-Jacques Rousseau",
+        "courants": ["Contrat social", "Volonté générale", "Éducation"],
+        "idées_cles": [
+            "L'homme est bon par nature, corrompu par la société",
+            "Le contrat social est la base de la légitimité politique",
+            "La souveraineté appartient au peuple",
+            "L'éducation doit former des citoyens vertueux"
+        ],
+        "ouvrages": ["Du contrat social", "Émile ou De l'éducation"]
+    },
+    {
+        "nom": "Socrate",
+        "courants": ["Maïeutique", "Vertu", "Connaissance"],
+        "idées_cles": [
+            "La connaissance de soi est la base de la sagesse",
+            "La vertu est liée à la connaissance",
+            "La maïeutique est la méthode pour faire naître la vérité",
+            "L'ironie socratique est un outil de dialogue"
+        ],
+        "ouvrages": ["(Œuvres de Socrate transmises par Platon)" ]
+    },
+    {
+        "nom": "Montesquieu",
+        "courants": ["Séparation des pouvoirs", "Esprit des lois"],
+        "idées_cles": [
+            "La séparation des pouvoirs est essentielle à la liberté",
+            "Les lois doivent être adaptées aux circonstances",
+            "L'esprit des lois est le principe d'organisation d'une société"
+        ],
+        "ouvrages": ["De l'esprit des lois"]
+    }
+]
