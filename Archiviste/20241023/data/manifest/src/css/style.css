@@ -1,0 +1,80 @@
+/* Couleurs principales */
+:root {
+    --primary-color: #1C3C69; /* Bleu marine comme sur boutique.elysee.fr */
+    --secondary-color: #F5F5F5; /* Gris très clair pour le contraste */
+    --accent-color: #FFD700; /* Couleur dorée pour les détails (optionnel) */
+    --text-color: #333;
+    --nav-hover-color: #FFD700;
+}
+
+/* Style général */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+/* En-tête */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Menu de navigation */
+nav {
+    margin-top: 1rem;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: var(--nav-hover-color);
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem 5%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres des sections */
+h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Pied de page */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,57 @@
+{
+    "tasks": [
+    {
+    "phase": "Préparation",
+    "time_start": "2023-03-01 09:00",
+    "time_end": "2023-03-01 12:00",
+    "description": "Établir un plan d'apprentissage pour l'IA en fonction des objectifs",
+    "steps": [
+    "Recueillir des informations sur le métier de chroniqueur politique",
+    "Identifier les sujets à traiter et les concepts clés",
+    "Sélectionner des sources d'information fiable et diversifiées"
+    ],
+    "status": "En cours",
+    "progress": "30%"
+    },
+    {
+    "phase": "Collecte de données",
+    "time_start": "2023-03-01 13:00",
+    "time_end": "2023-03-01 17:00",
+    "description": "Rassembler un corpus de textes politiques et de chroniques de qualité",
+    "steps": [
+    "Télécharger des articles de journaux, magazines et sites web",
+    "Organiser les données selon les thèmes et les auteurs",
+    "Préparer les données pour l'apprentissage automatique"
+    ],
+    "status": "En attente",
+    "progress": "0%"
+    },
+    {
+    "phase": "Apprentissage automatique",
+    "time_start": "2023-03-02 09:00",
+    "time_end": "2023-03-03 18:00",
+    "description": "Entraîner l'IA à écrire des chroniques politiques",
+    "steps": [
+    "Configurer le modèle d'apprentissage automatique",
+    "Utiliser les données pour entraîner l'IA",
+    "Tester et évaluer les performances de l'IA"
+    ],
+    "status": "À venir",
+    "progress": "0%"
+    },
+    {
+    "phase": "Évaluation et amélioration",
+    "time_start": "2023-03-06 09:00",
+    "time_end": "2023-03-07 18:00",
+    "description": "Analyser les résultats et identifier les points à améliorer",
+    "steps": [
+    "Examiner les chroniques produites par l'IA",
+    "Identifier les points forts et les points faibles",
+    "Ajuster le modèle d'apprentissage automatique si nécessaire"
+    ],
+    "status": "À venir",
+    "progress": "0%"
+    }
+    ]
+    }
+    

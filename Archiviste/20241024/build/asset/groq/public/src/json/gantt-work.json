@@ -1,0 +1,86 @@
+{
+    "phases": [
+    {
+    "name": "Phase de conception",
+    "duration": 20,
+    "steps": [
+    "Planifier l'architecture du système",
+    "Définir les besoins fonctionnels et les spécifications",
+    "Élaborer les documents de conception"
+    ]
+    },
+    {
+    "name": "Phase de configuration",
+    "duration": 15,
+    "steps": [
+    "Création de l'environnement de développement",
+    "Configuration des outils de développement et des bibliothèques nécessaires",
+    "Mise en place du contrôle de version"
+    ]
+    },
+    {
+    "name": "Phase d'entraînement du modèle d'IA",
+    "duration": 20,
+    "steps": [
+    "Préparation des données",
+    "Entraînement du modèle",
+    "Évaluation et amélioration du modèle"
+    ]
+    },
+    {
+    "name": "Phase de gestion et d'itération des scripts Frontend",
+    "duration": 20,
+    "steps": [
+    "Développement des interfaces utilisateur",
+    "Création de composants réutilisables",
+    "Optimisation de l'expérience utilisateur"
+    ]
+    },
+    {
+    "name": "Phase de gestion et d'itération des scripts Backend",
+    "duration": 20,
+    "steps": [
+    "Développement des services et des API",
+    "Intégration avec des bases de données et des systèmes externes",
+    "Gestion de la sécurité et des performances"
+    ]
+    },
+    {
+    "name": "Phase de test et de débogage",
+    "duration": 15,
+    "steps": [
+    "Écriture de tests automatisés",
+    "Tests fonctionnels et de performance",
+    "Débogage et correction de bogues"
+    ]
+    },
+    {
+    "name": "Phase de validation et de documentation",
+    "duration": 10,
+    "steps": [
+    "Vérification des exigences fonctionnelles",
+    "Rédaction de la documentation technique",
+    "Mise à jour de la documentation utilisateur"
+    ]
+    },
+    {
+        "name": "Phase de déploiement de la version système",
+        "duration": 10,
+        "steps": [
+        "Configuration des environnements de production",
+        "Déploiement de la solution",
+        "Vérification et validation post-déploiement"
+        ]
+        },
+        {
+        "name": "Phase de contribution et d'affiliation",
+        "duration": 10,
+        "steps": [
+        "Contributions au code source et aux documentations",
+        "Établissement de collaborations et d'affiliations",
+        "Suivi de la communauté et des retours utilisateurs"
+        ]
+        }
+        ]
+        }
+        

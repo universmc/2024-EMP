@@ -1,0 +1,77 @@
+{
+    "theme": "Abus de pouvoir et démocratie en danger : L'urgence de l'utilisation abusive de l'article 49-3",
+    "duration": "60 minutes",
+    "description": "Analyse approfondie de la situation politique actuelle en France, de l'utilisation abusive de l'article 49-3 de la Constitution, et des impacts sur la démocratie.",
+    "chapitres": [
+    {
+    "titre": "Introduction",
+    "sections": [
+    {
+    "titre": "Contexte",
+    "segments": [
+    {
+    "timestamp": "00:00-05:00",
+    "description": "Présentation des problèmes traités et de leur importance pour la société française."
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "titre": "Les éléments problématiques",
+    "sections": [
+    {
+    "titre": "Partis politiques",
+    "segments": [
+    {
+    "timestamp": "05:00-10:00",
+    "description": "Description de l'utilisation de différents sigles par les partis politiques, de l'absence de certains partis dans la liste officielle."
+    },
+    {
+    "timestamp": "10:00-15:00",
+    "description": "Discussion sur l'article 68 de la Constitution et des questions liées au consentement."
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "titre": "Analyse",
+    "sections": [
+    {
+    "titre": "Impacts sur la démocratie",
+    "segments": [
+    {
+    "timestamp": "15:00-25:00",
+    "description": "Examen de l'impact de ces éléments sur la démocratie en France."
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "titre": "Solutions et appel à l'action",
+    "sections": [
+        {
+    "titre": "Propositions",
+    "segments": [
+    {
+    "timestamp": "25:00-45:00",
+    "description": "Propositions de solutions pour lutter contre les abus de pouvoir et protéger la démocratie."
+    }
+    ]
+    },
+    {
+    "titre": "Appel à l'action",
+    "segments": [
+    {
+    "timestamp": "45:00-60:00",
+    "description": "Encouragement à mettre en œuvre ces solutions et à prendre des mesures concrètes pour protéger la démocratie française."
+    }
+    ]
+    }
+    ]
+    }
+    ],
+    "updateLocation": "fichiers/worlplan.json"
+}

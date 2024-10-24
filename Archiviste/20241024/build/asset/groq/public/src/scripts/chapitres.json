@@ -1,0 +1,33 @@
+{
+    "chapitres": [
+    {
+    "titre": "Chapitre 1 : Très courte introduction",
+    "duree": 3
+    },
+    {
+    "titre": "Chapitre 2 : Exemple d'algorithme de base",
+    "duree": 19
+    },
+    {
+    "titre": "Chapitre 3 : Arbre des futurs possibles",
+    "duree": 15
+    },
+    {
+    "titre": "Chapitre 4 : Interaction avec l'utilisateur",
+    "duree": 9
+    },
+    {
+    "titre": "Chapitre 5 : Émotions et interactions",
+    "duree": 10
+    },
+    {
+    "titre": "Chapitre 6 : Résumé et conclusion",
+    "duree": 9
+    },
+    {
+    "titre": "Chapitre 7 : Chute",
+    "duree": 3
+    }
+    ]
+    }
+    

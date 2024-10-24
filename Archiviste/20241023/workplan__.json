@@ -1,0 +1,57 @@
+{
+    "tasks": [
+      {
+        "phase": "Analyse de la liste des partis politiques faisant partie du regroupement au fonctionnaire d'État siégeant au Faubourg Saint-Honoré à Paris",
+        "time_start": "2024-10-20T09:00:00",
+        "time_end": "2024-10-20T12:00:00",
+        "description": "Réunir la liste des partis politiques et leurs représentants, étudier les liens et rechercher des informations sur les activités et positions politiques.",
+        "steps": [
+          "Réunir la liste des partis politiques et leurs représentants.",
+          "Étudier les liens entre ces partis et le fonctionnaire d'État en question.",
+          "Rechercher des informations sur les activités et les positions politiques de ces partis."
+        ],
+        "status": "En cours",
+        "progress": "20%"
+      },
+      {
+        "phase": "Étude de pratiques potentiellement illégales (emplois fictifs, évasions fiscales, blanchiment d'argent)",
+        "time_start": "2024-10-20T13:00:00",
+        "time_end": "2024-10-20T16:00:00",
+        "description": "Identifier les allégations, rechercher des preuves et examiner les conséquences potentielles.",
+        "steps": [
+          "Identifier les allégations d'emplois fictifs, d'évasions fiscales et de blanchiment d'argent.",
+          "Rechercher des preuves ou des informations sur ces pratiques.",
+          "Examiner les conséquences potentielles de ces pratiques sur la politique française."
+        ],
+        "status": "Non commencé",
+        "progress": "0%"
+      },
+      {
+        "phase": "Examen de l'utilisation du statut de fonctionnaire d'État pour faire du business dans la santé (Sanofi, Doliprane)",
+        "time_start": "2024-10-21T09:00:00",
+        "time_end": "2024-10-21T12:00:00",
+        "description": "Étudier les liens, rechercher des informations et analyser les implications éthiques.",
+        "steps": [
+          "Étudier les liens entre le fonctionnaire d'État et les entreprises pharmaceutiques (Sanofi, Doliprane).",
+          "Rechercher des informations sur les ventes de médicaments en France et à l'étranger.",
+          "Analyser les implications éthiques de ces activités pour un fonctionnaire d'État."
+        ],
+        "status": "Non commencé",
+        "progress": "0%"
+      },
+      {
+        "phase": "Questions éthiques et légales autour de la vente de produits de l'Elysée sur La Boutique Présidence de la République",
+        "time_start": "2024-10-21T13:00:00",
+        "time_end": "2024-10-21T16:00:00",
+        "description": "Réunir des informations, identifier les lois et analyser les profits potentiels et violations de la loi.",
+        "steps": [
+          "Réunir des informations sur les produits vendus par la Boutique Présidence de la République.",
+          "Identifier les lois pertinentes concernant la vente de produits à l'effigie de la Présidence.",
+          "Analyser les profits réalisés par la vente de ces produits et vérifier s'ils respectent les lois en vigueur."
+        ],
+        "status": "Non commencé",
+        "progress": "0%"
+      }
+    ]
+  }
+  

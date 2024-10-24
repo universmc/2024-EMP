@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Application</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      
+      h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      
+      a {
+        color: #008bdf;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      </style>
+  </head>
+  <body>
+    <main vocab="http://schema.org/" resource="." typeof="WebPage">
+      <h1 property="headline">Welcome to My Web Application</h1>
+      <p property="about">This is a simple web application.</p>
+      <p>
+        Use the following endpoints:
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/package.json">package.json</a></li>
+          <li><a href="/src/css/style.css">style.css</a></li>
+          <li><a href="/srv/srv.js">srv.js</a></li>
+        </ul>
+      </p>
+    </main>
+    <script>const express = require('express');
+      const app = express();
+      const path = require('path');
+      const port = process.env.PORT || 3000;
+      
+      app.use(express.static(path.join(__dirname, '..')));
+      
+      app.get('/', (req, res) => {
+        res.sendFile(path.join(__dirname, '..', 'index.html'));
+      });
+      
+      app.listen(port, () => {
+        console.log(`Server listening on port ${port}`);
+      });</script>
+  </body>
+</html>

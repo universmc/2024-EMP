@@ -1,0 +1,50 @@
+{
+    "theme": "Enquête sur les allégations d'abus de pouvoir au sein du gouvernement en place",
+    "duration": "8 heures",
+    "description": "Examen des allégations d'abus de pouvoir au sein du gouvernement en place et de l'usage abusif de certains articles de la Constitution.",
+    "chapitres": [
+    {
+    "titre": "Introduction",
+    "sections": [
+    {
+    "titre": "Présentation de l'enquête",
+    "segments": [
+    {
+    "timestamp": "09:00 - 09:30",
+    "description": "Exposer le contexte et les objectifs de l'enquête"
+    },
+    {
+    "timestamp": "09:30 - 10:00",
+    "description": "Définir les grandes lignes de la journée"
+    }
+    ]
+    }
+    ]
+    },
+    {
+    "titre": "Abus de pouvoir et Constitution",
+    "sections": [
+    {
+    "titre": "Allégations d'abus de pouvoir",
+    "segments": [
+    {
+    "timestamp": "10:00 - 11:00",
+    "description": "Étudier les accusations d'abus de pouvoir au sein du gouvernement"
+    }
+    ]
+    },
+    {
+    "titre": "Usage abusif de certains articles de la Constitution",
+    "segments": [
+    {
+    "timestamp": "11:00 - 12:00",
+    "description": "Analyser l'impact sur la Constitution"
+    }
+    ]
+    }
+    ]
+    }
+    ],
+    "updateLocation": ""
+    }
+    

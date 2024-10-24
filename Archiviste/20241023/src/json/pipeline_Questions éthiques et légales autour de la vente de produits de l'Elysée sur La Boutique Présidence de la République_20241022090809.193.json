@@ -1,0 +1,32 @@
+[
+  {
+    "titre": "Introduction",
+    "sousSections": [
+      {
+        "sousTitre": "Contexte",
+        "contenu": "Description du contexte de la phase: Questions éthiques et légales autour de la vente de produits de l'Elysée sur La Boutique Présidence de la République"
+      },
+      {
+        "sousTitre": "Objectifs",
+        "contenu": "Présenter les objectifs principaux de cette phase."
+      }
+    ]
+  },
+  {
+    "titre": "Développement",
+    "sousSections": [
+      {
+        "sousTitre": "Étape 1",
+        "contenu": "Détails de l'étape 1."
+      },
+      {
+        "sousTitre": "Étape 2",
+        "contenu": "Détails de l'étape 2."
+      },
+      {
+        "sousTitre": "Étape 3",
+        "contenu": "Détails de l'étape 3."
+      }
+    ]
+  }
+]

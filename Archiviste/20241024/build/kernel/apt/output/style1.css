@@ -1,0 +1,96 @@
+
+/* Couleurs */
+:root {
+    --main-bg-color: #f4f4f4;
+    --secondary-bg-color: #fff;
+    --text-color: #333;
+    --highlight-color: #fb6c6c;
+}
+
+/* Bordures & Ombres */
+/* Police et taille de texte */
+:root {
+    --body-font: 'Open Sans', sans-serif;
+    --text-lg: 1.5rem;
+    --text-md: 1.2rem;
+    --text-sm: 1rem;
+    --text-xs: 0.875rem;
+}
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-color);
+    background-color: var(--main-bg-color);
+}
+
+/* Conteneurs */
+.container {
+    max-width: 110rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+/* Entête */
+header {
+    background-color: var(--secondary-bg-color);
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+}
+
+/* Section */
+section {
+    padding: 4rem 0 3rem;
+}
+
+/* Bouton */
+.btn {
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    border-radius: var(--border-radius);
+    background-color: var(--highlight-color);
+    color: #fff;
+    font-size: var(--text-md);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #fc9c9c;
+}
+
+/* Majuscules */
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+h1, h2, h3 {
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: var(--text-lg);
+}
+
+h2 {
+    font-size: var(--text-md);
+}
+
+h3 {
+    font-size: var(--text-sm);
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
